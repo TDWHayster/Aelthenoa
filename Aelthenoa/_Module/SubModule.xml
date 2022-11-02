@@ -1,26 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-  <Name value="$modulename$" />
-  <Id value="$modulename$" />
-  <Version value="v$version$" />
-  <Official value="false" />
-  <DefaultModule value="false" />
-  <SingleplayerModule value="true" />
-  <MultiplayerModule value="false" />
-  <DependedModules>
-    <DependedModule Id="Bannerlord.Harmony" />
-    <DependedModule Id="Native" />
-    <DependedModule Id="SandBoxCore" />
-    <DependedModule Id="Sandbox" />
-    <DependedModule Id="StoryMode" />
-    <DependedModule Id="CustomBattle" />
-  </DependedModules>
+  <Name value="EXAMPLE"/>
+  <Id value="Bannerlord.EXAMPLE"/>
+  <!--Version will be injected on build-->
+  <Version value="v$version$"/>
+  <DefaultModule value="true"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <Official value="false"/>
   <SubModules>
     <SubModule>
-      <Name value="$modulename$" />
-      <DLLName value="$modulename$.dll" />
-      <SubModuleClassType value="$modulename$.SubModule" />
-      <Tags />
+      <Name value="EXAMPLE"/>
+      <DLLName value="EXAMPLE.dll"/>
+      <SubModuleClassType value="EXAMPLE.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
     </SubModule>
   </SubModules>
 </Module>
