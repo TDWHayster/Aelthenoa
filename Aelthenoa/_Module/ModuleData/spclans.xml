@@ -1,0 +1,84 @@
+<Factions>
+<!-- Elsion Guardianship -->
+  <Faction id="clan_empire_south_1"
+           name="{=house_elsio}House Elsio"
+           tier="6"
+           owner="Hero.lord_1_37"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.116.116.1836.1836.768.788.1.0.0.504.72.116.260.260.1186.764.0.1.271.503.116.116.329.329.1010.767.0.1.271.504.72.116.260.260.344.764.0.0.89.503.116.116.329.329.520.767.0.0.89.504.72.116.322.322.769.1168.0.1.180.503.116.116.361.361.767.995.0.1.180.504.72.116.322.322.769.359.0.0.0.503.116.116.361.361.767.532.0.0.0.503.72.116.740.740.763.763.0.0.0.503.116.116.666.666.763.763.0.0.0.406.72.116.593.593.764.764.0.0.0.503.116.116.444.444.764.764.0.0.0.415.122.116.444.444.764.764.0.0.-44" />
+           
+  <Faction id="clan_empire_south_2"
+           name="{=house_neoath}House Neoath"
+           tier="4"
+           owner="Hero.lord_1_15"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.214.5.0.463.463.764.764.0.0.0" />
+           
+  <Faction id="clan_empire_south_3"
+           name="{=house_balish}House Balish"
+           tier="5"
+           owner="Hero.lord_1_17"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.108.5.0.485.485.764.644.0.0.0.325.5.0.454.454.764.844.0.0.0" />
+           
+  <Faction id="clan_empire_south_4"
+           name="{=house_staenis}House Staenis"
+           tier="4"
+           owner="Hero.lord_1_30"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.418.5.0.147.147.604.882.0.0.0.107.5.0.454.454.764.764.0.0.0.418.5.0.147.147.924.882.0.0.0" />
+           
+  <Faction id="clan_empire_south_5"
+           name="{=house_estroth}House Estroth"
+           tier="3"
+           owner="Hero.lord_1_63"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.119.5.0.344.344.764.658.0.0.0.217.5.0.303.303.764.924.0.0.0.510.5.0.243.505.774.787.0.0.0" />
+           
+  <Faction id="clan_empire_south_6"
+           name="{=house_marlin}House Marlin"
+           tier="3"
+           owner="Hero.lord_1_54"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.304.5.0.366.366.763.844.0.0.0.423.5.0.420.420.763.764.0.1.0" />
+           
+  <Faction id="clan_empire_south_7"
+           name="{=house_craison}House Craison"
+           tier="3"
+           owner="Hero.lord_1_55"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.510.5.0.507.55.764.1025.0.0.0.459.5.0.507.507.764.764.0.0.0.510.5.0.507.171.764.997.0.0.0.510.5.0.507.171.764.532.0.0.0.510.5.0.507.55.764.501.0.0.0" />
+           
+  <Faction id="clan_empire_south_8"
+           name="{=house_wyvent}House Wyvent"
+           tier="1"
+           owner="Hero.lord_1_72"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.147.5.0.454.454.764.765.0.0.0" />
+           
+  <Faction id="clan_empire_south_9"
+           name="{=house_plagerium}House Plagarium"
+           tier="2"
+           owner="Hero.lord_SE9_l"
+           culture="Culture.empire"
+           super_faction="Kingdom.empire_s"
+           is_noble="true"
+           banner_key="11.71.4.4922.4922.764.764.1.0.0.505.5.0.460.50.764.764.0.0.0.459.5.0.150.150.660.658.0.0.0.459.5.0.150.150.871.658.0.0.0.459.5.0.150.150.871.870.0.0.0.459.5.0.150.150.660.870.0.0.0.505.5.0.460.50.765.764.0.0.10" />
+
+</Factions>

@@ -1,0 +1,441 @@
+<NPCCharacters>
+    <!-- Elsion Guardianship // Empire_S -->
+    <!-- Elsion // House Elsio // The Grandcity of Losthall : clan_empire_south_1 -->
+    <NPCCharacter id="lord_1_14"
+                  name="{andrion_elsio}Andrion Elsio"
+                  default_group="Infantry"
+                  age="50" voice="curt"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            age="22.72"
+                            weight="0.5"
+                            build="0.5"
+                            key="001B580D00004002628571B58D58888992348252BAC136C9475618388F9A4131007776030778797300000000000000000000000000000000000000003AF440C3" />
+        </face>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="0" />
+            <Trait id="Commander" value="5" />
+            <Trait id="Politician" value="10" />
+            <Trait id="Manager" value="7" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Authoritarian" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_flamboyant" />
+            <EquipmentSet id="emp_noncom_template_flamboyant"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_37"
+                  name="{ywetel_elsio}Ywetel Elsio"
+                  default_group="Infantry"
+                  age="22"
+                  voice="curt"
+                  is_hero="true"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            age="22.00"
+                            weight="0.35"
+                            build="0.5"
+                            key="001B580D00004002628571B58D58888992348252BAC136C9475618388F9A4131007776030778797300000000000000000000000000000000000000003AF440C3" />
+        </face>
+        <Traits>
+            <Trait id="BalancedFightingSkills" value="0" />
+            <Trait id="Commander" value="5" />
+            <Trait id="Politician" value="10" />
+            <Trait id="Manager" value="7" />
+            <Trait id="Generosity" value="1" />
+            <Trait id="Calculating" value="1" />
+            <Trait id="Authoritarian" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_flamboyant"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_27"
+                  name="{=grandin_kettleblack}Grandin Kettleblack"
+                  age="57"
+                  voice="curt"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  default_group="Cavalry">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.6"
+                            build="0.3"
+                            key="000B6C02C0BC100679D8455AA9684859888735557C6493786867627857B2895800058893058735D900001105000030A30000001F000000000000000001686000" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="HorseArcherFightingSkills"
+                   value="6" />
+            <Trait id="Commander"
+                   value="4" />
+            <Trait id="Politician"
+                   value="3" />
+            <Trait id="Manager"
+                   value="3" />
+            <Trait id="Mercy"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_southfrontier" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_27_1"
+                  name="{=antorn_elsia}Antorn Elsia"
+                  age="46"
+                  voice="earnest"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  default_group="Cavalry">
+        <face>
+            <BodyProperties version="4"
+                            age="25.84"
+                            weight="0.2"
+                            build="0.2"
+                            key="0005B8071070000A987877861A2999B848987C68EA6BB7869423371443C8EA4801377613036AB66200000000000000000000000000000000000000005A6C3003" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="3" />
+            <Trait id="Mercy"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_southfrontier" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_27_2"
+                  name="{=zaHnL2It}Cathelyne Elsia"
+                  age="43"
+                  voice="earnest"
+                  is_hero="true"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  default_group="Cavalry">
+        <face>
+            <BodyProperties version="4"
+                            age="30.7"
+                            weight="0.4"
+                            build="0.4"
+                            key="000B8802C0BC1005B9D8455AA96848594597AD77996A54B899D967BA74979778010008930FBA9A7900001105000030A30000001F000000000000000001683100" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="HorseArcherFightingSkills"
+                   value="4" />
+            <Trait id="Commander"
+                   value="4" />
+            <Trait id="Politician"
+                   value="1" />
+            <Trait id="Manager"
+                   value="1" />
+            <Trait id="Mercy"
+                   value="-1" />
+            <Trait id="Calculating"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_flamboyant"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_27_3"
+                  name="{=lexia_elsia}Lexia Elsia"
+                  is_female="true"
+                  age="18"
+                  voice="earnest"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  default_group="Cavalry">
+        <face>
+            <BodyProperties version="4"
+                            age="30.7"
+                            weight="0.2"
+                            build="0.3"
+                            key="000B8802C0BC1005B9D8455AA96848594597AD77996A54B899D967BA74979778010008930FBA9A7900001105000030A30000001F000000000000000001683100" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="HorseArcherFightingSkills"
+                   value="3" />
+            <Trait id="Commander"
+                   value="2" />
+            <Trait id="Politician"
+                   value="1" />
+            <Trait id="Manager"
+                   value="1" />
+            <Trait id="Mercy"
+                   value="-1" />
+            <Trait id="Calculating"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_flamboyant"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_47"
+                  name="{=ser_byrron_hewett}Ser Byrron Hewett"
+                  default_group="Cavalry"
+                  age="23"
+                  voice="curt"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.5"
+                            build="0.5"
+                            key="0011B40597BC038E94A8C26585AAA93992D5A78776779C82329B657437695D35000005A80DE9BA6200001105000030A30000001F000000000000000000000000" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="KnightFightingSkills"
+                   value="6" />
+            <Trait id="Commander"
+                   value="7" />
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="4" />
+            <Trait id="Mercy"
+                   value="-1" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_47_1"
+                  name="{=ser_arina_fletcher}Ser Arina Fletcher"
+                  age="38"
+                  is_female="true"
+                  voice="earnest"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  default_group="Cavalry"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.5"
+                            build="0.5"
+                            key="001CD00FD114000AE46398467C698988876DB2B863D57A6D87B96C58967BE7660187761308364A49000000000000000000000000000000000000000019142003" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Politician"
+                   value="3" />
+            <Trait id="Manager"
+                   value="2" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Valor"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_47_2"
+                  name="{=ser_miranna_celtigar}Ser Miranna Celtigar"
+                  default_group="Cavalry"
+                  age="25"
+                  is_female="true"
+                  voice="softspoken"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.5"
+                            build="0.5"
+                            key="001C880A111400012857DAA3C88BD254869B9BB7C7796796A6987253285773960137761303A670BD00000000000000000000000000000000000000005A741083" />
+        </face>
+        <skills></skills>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_47_3"
+                  name="{=harlik_elsio}Harlik Elsio"
+                  default_group="Cavalry"
+                  age="87"
+                  voice="curt"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.5"
+                            build="0.5"
+                            key="00115C0A13702007997A77A685B88487865116663789A798A6A897926887369901A776130A8B49B500000000000000000000000000000000000000001F543083" />
+        </face>
+        <skills></skills>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="ser_gerrad_belmore"
+                  name="{=ser_gerrad_belmore}Ser Gerrad Belmore"
+                  default_group="Cavalry"
+                  age="56"
+                  voice="ironic"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.5"
+                            build="0.5"
+                            key="00115C0A13702007997A77A685B88487865116663789A798A6A897926887369901A776130A8B49B500000000000000000000000000000000000000001F543083" />
+        </face>
+        <skills></skills>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <!-- Elsion // House Neoath // The Grand City of Ironspire
+    <NPCCharacter id="lord_els_neo_1_1" name="{=bartheoneoathis}Bartheo Neoathis" age="57" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.elsian" occupation="Lord">
+        <face>
+            
+        </face>
+        <skills></skills>
+        <Traits></Traits>
+        <Equipments>
+          <EquipmentRoster />
+          <EquipmentSet id="els_guardian_neoath_mounted_bat_stoic" />
+          <EquipmentSet id="els_guardian_civ_stoic" civilian="true" />
+        </Equipments>
+    </NPCCharacter> -->
+    <!-- Elsion // House Balish // The Grand City of Rosegarden -->
+    <!-- Elsion // House Staenis // The Grand City of Wardenglade -->
+    <!-- Elsion // House Estroth // The Grand City of Greyhavens -->
+    <!-- Elsion // House Marlin // The Grand City of Stoneholden -->
+    <!-- Elsion // House Craison // The Grand City of Rudenhiem -->
+    <!-- Elsion // House Wyvent // The Grand City of Black Keep -->
+    <!-- Elsion // House Plagarium // The Grand City of Stormheaven -->
+    <!-- Elsion // House Paragon  -->
+    <!-- Elsion // House Bleakwater  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+    <!-- Elsion // House ?????  -->
+
+    <!-- The Tribes of Deminos // Battania -->
+    <!-- Deminos // River Crags -->
+    <!-- River Crags // Family Beorn // The Barrow of Riverlayel 
+    <NPCCharacter id="lord_dem_riv_1_1" name="{=fardenbeorn}Fardern Beorn" age="59" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.demian_rivercrags" occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="59.52" weight="0.5" build="0.5"  key="0005C40A4000078E798068894DBCDCBAA854866295A0867774414A498C89F6F605A776570AA7B7A500000000000000000000000000000000000000003D5C2002"  />
+        </face>
+        <skills></skills>
+        <Traits></Traits>
+        <Equipments>
+          <EquipmentRoster />
+          <EquipmentSet id="dem_rivercrags_leader_bat_heavy" />
+          <EquipmentSet id="dem_rivercrags_noble_civ_rough" civilian="true" />
+        </Equipments>
+    </NPCCharacter>	-->
+    <!-- River Crags // Family Draenoth -->
+    <!-- River Crags // Family ????? -->
+    <!-- River Crags // Family ????? -->
+    <!-- River Crags // Family ????? -->
+    <!-- River Crags // Family ????? -->
+    <!-- River Crags // Family ????? -->
+    <!-- River Crags // Family ????? -->
+    <!-- River Crags // Family ????? -->
+
+    <!-- Deminos // Highpoint Fells -->
+    <!-- Highpoint Fells // Family Throsson // The Barrow of Windbrooke 
+    <NPCCharacter id="lord_dem_hig_1_1" name="{=nervinorthrosson}Nervinor Throsson" age="31" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.demian_highpointfells" occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="31.21" weight="0.5926" build="0.9552"  key="00003805530023CF0186416014CD128F93EE743869432D187441D5F98188311000FE96030FA7B7A5000000000000000000000000000000000000000063FC2002" />
+        </face>
+        <skills></skills>
+        <Traits></Traits>
+        <Equipments>
+          <EquipmentRoster />
+          <EquipmentSet id="dem_highpoint_leader_bat_heavy" />
+          <EquipmentSet id="dem_highpoint_noble_civ_stoic" civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_dem_hig_1_2" name="{=aleleathrosson}Alelea Throsson" age="28" voice="softspoken" is_female="true" default_group="Infantry" is_hero="true" culture="Culture.yodalian" occupation="Lord">
+        <face>
+            <BodyProperties version="4" age="28.51" weight="0.0849" build="0.4769"  key="000574000000100A786CC66774992BA4A35E866295A01A7774414A498C8336860187161308A7B7A500000000000000000000000000000000000000003D044003" />
+        </face>
+        <skills></skills>
+        <Traits></Traits>
+        <Equipments>
+          <EquipmentRoster />
+          <EquipmentSet id="yod_princess_alelea_bat_light" />
+          <EquipmentSet id="dem_highpoint_noblef_civ_light" civilian="true" />
+        </Equipments>
+    </NPCCharacter>	-->
+    <!-- Highpoint Fells // Family Derinos -->
+    <!-- Highpoint Fells // Family ????? -->
+    <!-- Highpoint Fells // Family ????? -->
+    <!-- Highpoint Fells // Family ????? -->
+    <!-- Highpoint Fells // Family ????? -->
+    <!-- Highpoint Fells // Family ????? -->
+    <!-- Highpoint Fells // Family ????? -->
+
+</NPCCharacters>
