@@ -11,7 +11,7 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
         <PlatformTarget>x64</PlatformTarget>
         <DebugType>full</DebugType>
-        <OutputPath>$(BaseOutputPath)</OutputPath>
+        <OutputPath>E:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord/Modules/Aelthenoa/bin/Win64_Shipping_Client</OutputPath>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -61,4 +61,8 @@
             <ExcludeAssets>runtime</ExcludeAssets>
         </PackageReference>
     </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="xcopy $(ProjectDir)_Module\ModuleData\* &quot;E:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Aelthenoa\ModuleData&quot; /y /e" />
+    </Target>
 </Project>

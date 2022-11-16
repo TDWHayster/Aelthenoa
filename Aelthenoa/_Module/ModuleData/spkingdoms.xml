@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="empire_s"
+             owner="Hero.lord_1_14"
+             banner_key="11.116.116.1836.1836.768.788.1.0.0.504.72.116.260.260.1186.764.0.1.271.503.116.116.329.329.1010.767.0.1.271.504.72.116.260.260.344.764.0.0.89.503.116.116.329.329.520.767.0.0.89.504.72.116.322.322.769.1168.0.1.180.503.116.116.361.361.767.995.0.1.180.504.72.116.322.322.769.359.0.0.0.503.116.116.361.361.767.532.0.0.0.503.72.116.740.740.763.763.0.0.0.503.116.116.666.666.763.763.0.0.0.406.72.116.593.593.764.764.0.0.0.503.116.116.444.444.764.764.0.0.0.415.122.116.444.444.764.764.0.0.-44"
+             primary_banner_color="0xff000000"
+             secondary_banner_color="0xff000000"
+             label_color="FF6d62b5"
+             color="FF9382D0"
+             color2="FFDE9953"
+             alternative_color="FFF4CA14"
+             alternative_color2="FF6d62b5"
+             culture="Culture.empire"
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_b"
+             name="{the_guardianship_of_elsion}The Guardianship of Elsion"
+             short_name="{elsion_guardianship}Elsion Guardianship"
+             title="{the_guardianship_of_elsion}The Guardianship of Elsion"
+             ruler_title="{elsion_ruler}Queen Guardian"
+             text="{elsion_text}From the grand city of losthall to the great ports in Stormhaven, The Guardianship rules. Under House Elsio they had grown strong but decent now appears in their ranks. With young Ywetel as queen many of the Grand Guardians are starting to grab for positions of power, luckily she still has loyal lords willing to aid her.">
+        <relationships>
+            <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+        </relationships>
+        <policies>
+            <policy id="policy_royal_privilege" />
+        </policies>
+    </Kingdom>
+    <Kingdom id="empire"
+             owner="Hero.lord_1_1"
+             banner_key="11.110.110.1836.1836.768.788.1.0.0.202.155.116.1087.1087.622.839.0.1.-83.202.155.116.1087.1087.895.839.0.0.82.326.116.116.455.678.469.785.0.1.0.326.116.116.455.678.1060.785.0.1.0.330.116.116.381.1013.762.843.0.1.0.328.116.116.269.269.756.511.0.1.0.131.155.116.269.269.767.919.0.1.0"
+             primary_banner_color="0xffcacccb"
+             secondary_banner_color="0xff000000"
+             label_color="0xffCACCCB"
+             color="0xffcacccb"
+             color2="0xff000000"
+             alternative_color="0xfff1c232"
+             alternative_color2="0xff0B0C11"
+             culture="Culture.empire"
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_b"
+             name="{=the_wardenship_of_grendale}The Wardenship of Grendale"
+             short_name="{=ECM_empire_n_short_name}Grendale Wardenship"
+             title="{=the_wardenship_of_grendale}The Wardenship of Grendale"
+             ruler_title="{=grendale_ruler}Marquis Warden"
+             text="{=grendale_text}Placehold">
+        <relationships>
+            <relationship kingdom="Kingdom.khuzait"
+                          value="-1"
+                          isAtWar="true" />
+        </relationships>
+        <policies>
+            <policy id="policy_feudal_inheritance" />
+        </policies>
+    </Kingdom>
+</Kingdoms>

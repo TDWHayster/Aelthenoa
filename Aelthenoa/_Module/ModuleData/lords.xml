@@ -207,8 +207,7 @@
                   voice="curt"
                   is_hero="true"
                   culture="Culture.empire"
-                  occupation="Lord"
-                  face_mesh_cache="true">
+                  occupation="Lord">
         <face>
             <BodyProperties version="4"
                             weight="0.5"
@@ -247,8 +246,7 @@
                   is_hero="true"
                   culture="Culture.empire"
                   default_group="Cavalry"
-                  occupation="Lord"
-                  face_mesh_cache="true">
+                  occupation="Lord">
         <face>
             <BodyProperties version="4"
                             weight="0.5"
@@ -281,8 +279,7 @@
                   voice="softspoken"
                   is_hero="true"
                   culture="Culture.empire"
-                  occupation="Lord"
-                  face_mesh_cache="true">
+                  occupation="Lord">
         <face>
             <BodyProperties version="4"
                             weight="0.5"
@@ -306,8 +303,7 @@
                   voice="curt"
                   is_hero="true"
                   culture="Culture.empire"
-                  occupation="Lord"
-                  face_mesh_cache="true">
+                  occupation="Lord">
         <face>
             <BodyProperties version="4"
                             weight="0.5"
@@ -331,8 +327,31 @@
                   voice="ironic"
                   is_hero="true"
                   culture="Culture.empire"
-                  occupation="Lord"
-                  face_mesh_cache="true">
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.5"
+                            build="0.5"
+                            key="00115C0A13702007997A77A685B88487865116663789A798A6A897926887369901A776130A8B49B500000000000000000000000000000000000000001F543083" />
+        </face>
+        <skills></skills>
+        <Traits>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_heavy" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="newent_hewett"
+                  name="{=newent_hewett}Newent Hewett"
+                  default_group="Cavalry"
+                  age="30"
+                  voice="curt"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
         <face>
             <BodyProperties version="4"
                             weight="0.5"
@@ -431,6 +450,7 @@
         </Equipments>
     </NPCCharacter>	-->
     <!-- Highpoint Fells // Family Derinos -->
+    <!-- Highpoint Fells // Family Derinos -->
     <!-- Highpoint Fells // Family ????? -->
     <!-- Highpoint Fells // Family ????? -->
     <!-- Highpoint Fells // Family ????? -->
@@ -438,4 +458,298 @@
     <!-- Highpoint Fells // Family ????? -->
     <!-- Highpoint Fells // Family ????? -->
 
+    <!-- Deminos // Drakehill Vale // Grand Drake -->
+    <!-- Deminos // Iceflow Glades // Grand Wolf -->
+    <!-- Deminos // Valley Wilds // Grand Oxen -->
+    <!-- Deminos // Shrouded Woodlands // Grand Tiger -->
+    <!-- Deminos // Mountain Wilds // Grand Ram -->
+    <!-- Deminos // Wetland Marche // Grand Otter -->
+    <!-- Deminos // Burrow Wastes // Grand Badger -->
+    <!-- Deminos // Highwinds Mount // Grand Falcon -->
+
+    <!-- The Grendale Wardenship // Empire_N -->
+    <!-- Grendale // House Weonyn // The City of Flamecoast-->
+    <NPCCharacter id="lord_1_1"
+                  name="{=cheville_weonyn}Cheville Weonyn"
+                  age="52"
+                  voice="curt"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.2"
+                            build="0.7"
+                            key="00005C0B4000034D649A7797787A473B743A45888527B857869AA27956B54D3C0007A5A6073DE87C00001105000030A30000001F000000000000000001182000" />
+            <hair_tags>
+                <hair_tag name="Short" />
+            </hair_tags>
+            <beard_tags>
+                <beard_tag name="LightShortBeard" />
+            </beard_tags>
+        </face>
+        <Traits>
+            <Trait id="KnightFightingSkills"
+                   value="5" />
+            <Trait id="Commander"
+                   value="8" />
+            <Trait id="Politician"
+                   value="6" />
+            <Trait id="Manager"
+                   value="7" />
+            <Trait id="Valor"
+                   value="1" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="-1" />
+            <Trait id="Oligarchic"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_stoic"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_2"
+                  name="{=atlion_weonyn}Atlion Weonyn"
+                  age="22"
+                  voice="earnest"
+                  default_group="Cavalry"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.2"
+                            build="0.3"
+                            key="0005E80700000002996697B5ADAB959A78999668743273447AB68778A75696920007B008059879880000000000000FFE00000000000000000000000000C80004" />
+        </face>
+        <Traits>
+            <Trait id="Politician"
+                   value="3" />
+            <Trait id="Manager"
+                   value="8" />
+            <Trait id="Generosity"
+                   value="1" />
+            <Trait id="Honor"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_stoic"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_41"
+                  name="{=avae_ii_weonyn}Avae II Weonyn"
+                  default_group="Cavalry"
+                  age="16"
+                  voice="curt"
+                  is_hero="true"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.1096"
+                            build="0.162"
+                            key="0015680D80A0200299B59BA686A5D48BB5A673F8A57C849D76450D4E897578870662266106596856000000000000000000000000000000000000000048CC2003" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                   value="5" />
+            <Trait id="Commander"
+                   value="7" />
+            <Trait id="Politician"
+                   value="5" />
+            <Trait id="Manager"
+                   value="6" />
+            <Trait id="Honor"
+                   value="+1" />
+            <Trait id="Mercy"
+                   value="-1" />
+            <Trait id="Generosity"
+                   value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_medium" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_411"
+                  name="{=nuae_weonyn}Nuae Weonyn"
+                  default_group="Cavalry"
+                  age="20"
+                  voice="curt"
+                  is_hero="true"
+                  race="elf"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord">
+        <face>
+            <BodyProperties version="4"
+                            age="21.71"
+                            weight="0.1096"
+                            build="0.662"  
+                            key="003F680F1100200699B59BA686A5D48BB5A673F8A57C849D76450D4E89757887006A260306596856000000000000000000000000000000000000000048CC2000" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="BalancedFightingSkills"
+                   value="5" />
+            <Trait id="Commander"
+                   value="7" />
+            <Trait id="Politician"
+                   value="5" />
+            <Trait id="Manager"
+                   value="6" />
+            <Trait id="Honor"
+                   value="+1" />
+            <Trait id="Mercy"
+                   value="-1" />
+            <Trait id="Generosity"
+                   value="-1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_stoic" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_31"
+                  name="{=AccBcEIt}Agnes"
+                  age="20"
+                  voice="earnest"
+                  is_hero="true"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  default_group="Cavalry"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.3"
+                            build="0.6"
+                            key="0005500FC0BC000486C64A728933945971883D46C8A8A49B869A54A87478B784000536B30C4458AC0000000000000FFE00000000000000000000000000780000" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="6" />
+            <Trait id="Valor"
+                   value="-1" />
+            <Trait id="Honor"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_flamboyant"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_1_1"
+                  name="{=J0QdMsnX}Anna"
+                  default_group="Cavalry"
+                  age="32"
+                  voice="ironic"
+                  is_female="true"
+                  is_hero="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            age="32"
+                            weight="0.4"
+                            build="0.4"
+                            key="00165C000014000EE93966A9966848AA5746E9558867A392654767867CA775120197761309B278C50000000000000000000000000000000000000000593C30C3" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="6" />
+            <Trait id="Generosity"
+                   value="1" />
+            <Trait id="Mercy"
+                   value="1" />
+            <Trait id="Honor"
+                   value="-1" />
+            <Trait id="Calculating"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_1_2"
+                  name="{=zFPc7VEO}Yolande"
+                  default_group="Cavalry"
+                  age="19"
+                  voice="earnest"
+                  is_hero="true"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  face_mesh_cache="true">
+        <face>
+            <BodyProperties version="4"
+                            age="25.84"
+                            weight="0.5"
+                            build="0.5"
+                            key="0005600E52FC000CC868A17A8CE9A27853775886D8FB72469D46E8B96B48C576013776130362978500000000000000000000000000000000000000004E6C1003" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="Politician"
+                   value="3" />
+            <Trait id="Manager"
+                   value="4" />
+            <Trait id="Generosity"
+                   value="-1" />
+            <Trait id="Mercy"
+                   value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentSet id="emp_bat_template_lady" />
+            <EquipmentSet id="emp_noncom_template_stoic"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="lord_1_21"
+                  name="{=avae_weonyn}Avae Weonyn"
+                  age="42"
+                  voice="earnest"
+                  is_hero="true"
+                  is_female="true"
+                  culture="Culture.empire"
+                  occupation="Lord"
+                  default_group="Cavalry">
+        <face>
+            <BodyProperties version="4"
+                            weight="0.2"
+                            build="0.6"
+                            key="000B300CC000300DA4A56A443FB7AA9674A624797769AAA8D879575B59B825B9000777450745277900001105000030A30000001F000000000000000001403000" />
+        </face>
+        <skills></skills>
+        <Traits></Traits>
+        <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="emp_bat_template_northfrontier" />
+            <EquipmentSet id="emp_civ_template_default"
+                          civilian="true" />
+        </Equipments>
+    </NPCCharacter>
 </NPCCharacters>

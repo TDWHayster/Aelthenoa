@@ -18,5 +18,16 @@
 	<xsl:template match="Hero[@id='lord_1_47_1']"/>
 	<xsl:template match="Hero[@id='lord_1_47_2']"/>
 	<xsl:template match="Hero[@id='lord_1_47_3']"/>
+
+	<!-- Empire N : The Grendale Wardenship -->
+	<!-- Clan 1 : Weonyn -->
+	<xsl:template match="Hero[@id='lord_1_1']"/>
+	<xsl:template match="Hero[@id='lord_1_2']"/>
+	<xsl:template match="Hero[@id='lord_1_41']"/>
+	<xsl:template match="Hero[@id='lord_1_411']"/>
+	<xsl:template match="Hero[@id='lord_1_31']"/>
+	<xsl:template match="Hero[@id='lord_1_1_1']"/>
+	<xsl:template match="Hero[@id='lord_1_1_2']"/>
+	<xsl:template match="Hero[@id='lord_1_21']"/>
 	
 </xsl:stylesheet>

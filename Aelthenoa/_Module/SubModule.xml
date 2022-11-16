@@ -1,22 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-  <Name value="EXAMPLE"/>
-  <Id value="Bannerlord.EXAMPLE"/>
-  <!--Version will be injected on build-->
-  <Version value="v$version$"/>
-  <DefaultModule value="true"/>
+  <Name value="Aelthenoa"/>
+  <Id value="Aelthenoa"/>
+  <Version value="e1.0.0"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
-  <Official value="false"/>
-  <SubModules>
-    <SubModule>
-      <Name value="EXAMPLE"/>
-      <DLLName value="EXAMPLE.dll"/>
-      <SubModuleClassType value="EXAMPLE.SubModule"/>
-      <Tags>
-        <Tag key="DedicatedServerType" value="none" />
-        <Tag key="IsNoRenderModeElement" value="false" />
-      </Tags>
-    </SubModule>
-  </SubModules>
+  <DependedModules>
+  </DependedModules>
+  <SubModules></SubModules>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="Heroes" path="heroes"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="lords"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Factions" path="spclans"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Kingdoms" path="spkingdoms"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Settlements" path="settlements"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Monsters" path="monsters"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
 </Module>

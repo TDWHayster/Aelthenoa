@@ -1,36 +1,36 @@
 <Heroes>
-	<!-- Elsion // Empire_S -->
+	<!-- The Guardianship of Elsion // Empire_S -->
 	<!-- Elsion // House Elsio // The Grandcity of Losthall -->
-	<Hero id="lord_1_37" father="Hero.lord_1_14" faction="Faction.clan_empire_south_1" text="{ywetel_elsio_text}Ywetel is the daughter of the 23rd King Guardian and a Peasant girl. Despite this she was able to shed the gowns of the lowborn status she had and joined her father in the noble courts. When her father died fighting back the hordes of The Theocracy of Yodenhiam , Ywetel became Queen Guardian. The nobles flocked to her each Guardian trying to garner favor with her but none succeeded. Ywetel keeps a firm grip on her rule by valor on the field of battle and a gentle hand in the courts." />
+	<Hero id="lord_1_37" father="Hero.lord_1_14" faction="Faction.clan_empire_south_1" 
+		  text="{=ywetel_elsio_text}Ywetel is the daughter of the 23rd King Guardian and a Peasant girl. Despite this she was able to shed the gowns of the lowborn status she had and joined her father in the noble courts. When her father died fighting back the hordes of The Theocracy of Yodenhiam , Ywetel became Queen Guardian. The nobles flocked to her each Guardian trying to garner favor with her but none succeeded. Ywetel keeps a firm grip on her rule by valor on the field of battle and a gentle hand in the courts." />
 	<Hero id="lord_1_27" father="Hero.lord_1_47_3" faction="Faction.clan_empire_south_1" 
-		  text="{grandin_kettleblack_text}Grandin Kettleblack is the Bastard brother of Andrion Elsio. Due to his bastard blood and cowardice in battle he is looked down on by many nobles and is unable to garner the needed support to seize the throne from his neice. He is always plotting something." />
-	<Hero id="lord_1_27_1" spouse="Hero.lord_1_27_2" faction="Faction.clan_empire_south_1" />
-	<Hero id="lord_1_27_2" father="Hero.lord_1_47_3" spouse="Hero.lord_1_27_1" faction="Faction.clan_empire_south_1" />
-	<Hero id="lord_1_27_3" father="Hero.lord_1_27_1" mother="Hero.lord_1_27_2" faction="Faction.clan_empire_south_1" />
-	<Hero id="lord_1_47" faction="Faction.clan_empire_south_1" />
-	<Hero id="lord_1_47_1" faction="Faction.clan_empire_south_1" />
-	<Hero id="lord_1_47_2" faction="Faction.clan_empire_south_1" />
-	<Hero id="ser_gerrad_belmore" faction="Faction.clan_empire_south_1" />
+		  text="{=grandin_kettleblack_text}Grandin Kettleblack is the Bastard brother of Andrion Elsio. Due to his bastard blood and cowardice in battle he is looked down on by many nobles and is unable to garner the needed support to seize the throne from his niece. He is always plotting something." />
+	<Hero id="lord_1_27_1" spouse="Hero.lord_1_27_2" faction="Faction.clan_empire_south_1" 
+		  text="{=antorn_elsia_text}Antorn is desendant of the offshoot house Elsia. As the 7th generation since it began he is not considered part of House Elsio anymore. In order to realign the two houses he married the widowed Cathelyne Elsio. Although to most it would seem a political marriage, it was actually a marriage of love."/>
+	<Hero id="lord_1_27_2" father="Hero.lord_1_47_3" spouse="Hero.lord_1_27_1" faction="Faction.clan_empire_south_1" 
+		  text="{=cathelyne_elsio_text}The only genuine daughter of Harlik, Cathelyne is the Aunt of Ywetel and often helped set her straight in her youth. She is a staunch supporter of Ywetel and a Skilled warrior to boot, though her main role in the Kingdom is as a Diplomat and Peacemaker." />
+	<Hero id="lord_1_27_3" father="Hero.lord_1_27_1" mother="Hero.lord_1_27_2" faction="Faction.clan_empire_south_1" 
+		  text="{=lexia_elsia_text}Lexia is the Daughter of Antorn and Cathelyne and so falls under the Elsia bloodline. This small detail didn't stop her from becoming not only the best friend of Ywetel but also one of her core confidants. Lexia is often taunted by Grandin her uncle as she will never be a queen, she however laughs at him as he is in a worse position than her in the race for the throne." />
+	<Hero id="lord_1_47" faction="Faction.clan_empire_south_1" 
+		  text="{=ser_byrron_hewett_text}Ser Byrron Hewett is a House Guard for House Elsio. He is frequently seen flirting with Lexia Elsia and often gets into a lot of trouble for it." />
+	<Hero id="lord_1_47_1" faction="Faction.clan_empire_south_1" 
+		  text="{=ser_arina_fletcher_text}Ser Arina Fletcher is a House Guard for House Elsio" />
+	<Hero id="lord_1_47_2" faction="Faction.clan_empire_south_1" 
+		  text="{=ser_miranna_celtigar_text}Ser Miranna Celtigar is a House Guard for House Elsio" />
+	<Hero id="ser_gerrad_belmore" faction="Faction.clan_empire_south_1" 
+		  text="{=ser_gerrad_belmore_text}Ser Gerrad Belmore is a House Guard for House Elsio" />
 	<!-- Children -->
-	
-	<!-- Dead -->
-	<Hero id="lord_1_14" father="Hero.lord_1_47_3" alive="false" faction="Faction.clan_empire_south_1" text="{andrion_elsio_text}The 23rd King of Elsion, Andrion Elsio demanded great respect from his noblemen and tried to impress upon his bastard daughter the ways of nobility. While this seemed to have worked for the most part he knew it wouldn't last. He left the world behind knowing that the Grand Theocracy of Yodenhiem would pose the greatest threat in years to come!" />
-	<Hero id="lord_1_47_3" alive="false" faction="Faction.clan_empire_south_1" />
 	<!--
-		Antorn Elsia - Family Offshoot/7th Generation - Hardy Warrior/Highly Skilled/Excellect Strategist - "{antorn_elsia}???"
-		Cathelyne Elsia - Loving Aunt - Core Supporter/Peacemaker/Skilled Warrior - "{cathelyne_elsia}???"
-		Lexia Elsia - Ywetel Cousin - Non-Combatant/Good Diplomat/Fiercely Loyal - "{lexia_elsia}???"
-		Ser Gerrad Belmore - House Guard/General/Combatant - "(ser_gerrad_belmore)???"
-		Ser Byrron Hewett - House Guard/General/Combatant - "{ser_byrron_hewett}???"
-		Ser Arina Fletcher - House Guard/General/Combatant - "{ser_arina_fletcher}???"
-		Ser Miranna Celtigar - House Guard/General/Combatant - "{ser_miranna_celtigar}???"
-		
-		Children:
-		
-		Dead Members:
-		Harlik Elsio - 22nd King, Andrion, Grandin and Cathelyne's father - Brave/Honourable/Strong Commander
-		Newent Hewett - Materalineal Marriage to Cathelyne, Died in Battle, Uncle of Ser Byrron Hewett - Skilled Warrior
-		-->
+		A brother and sister for lexia but step family 
+	-->
+	<!-- Dead -->
+	<Hero id="lord_1_14" father="Hero.lord_1_47_3" alive="false" faction="Faction.clan_empire_south_1"
+		  text="{=andrion_elsio_text}The 23rd King of Elsion, Andrion Elsio demanded great respect from his noblemen and tried to impress upon his bastard daughter the ways of nobility. While this seemed to have worked for the most part he knew it wouldn't last. He left the world behind knowing that the Grand Theocracy of Yodenhiem would pose the greatest threat in years to come!" />
+	<Hero id="lord_1_47_3" alive="false" faction="Faction.clan_empire_south_1" 
+		  text="{=harlik_elsio_text}Harlik was the 22nd King of Elsion. During his time as king, he was responsible for a number of wars but also a number of treaties. He was known as a lousy king consistly running to brothels and other unseemly places. All this leading to many bastards however only one is known. His only to legitimate children still love their brother inspite of this!" />
+	<Hero id="newent_hewett" alive="false" faction="Faction.clan_empire_south_1" 
+		  text="{=newent_hewett_text}The son of the First lord of House Hewett, Newent was the first love of Cathelyne. The two wed in a matrilineal marriage but never had any children. Newent sadly died in battle but not before meeting his nephew Byrron who became a house guard for House Elsio." />
+
 	<!-- Elsion // House Neoath // The Grand City of Ironspire -->
 	<!--
 		Bartheo Neoathis - Leader - Guardian/General/Combatant - "{bartheo_neoathis}"
@@ -65,7 +65,7 @@
 	<!-- Elsion // House ?????  -->
 
 	<!-- The Tribes of Deminos // Battania -->
-	<!-- Deminos // River Crags -->
+	<!-- Deminos // River Crags // Grand Bear -->
 	<!-- River Crags // Family Beorn // The Barrow of Riverlayel -->
 	<!-- River Crags // Family Draenoth -->
 	<!-- River Crags // Family ????? -->
@@ -76,7 +76,7 @@
 	<!-- River Crags // Family ????? -->
 	<!-- River Crags // Family ????? -->
 
-	<!-- Deminos // Highpoint Fells -->
+	<!-- Deminos // Highpoint Fells // Grand Lion -->
 	<!-- Highpoint Fells // Family Throsson // The Barrow of Windbrooke -->
 	<!-- Highpoint Fells // Family Derinos -->
 	<!-- Highpoint Fells // Family ????? -->
@@ -85,4 +85,42 @@
 	<!-- Highpoint Fells // Family ????? -->
 	<!-- Highpoint Fells // Family ????? -->
 	<!-- Highpoint Fells // Family ????? -->
+	
+	<!-- Deminos // Drakehill Vale // Grand Drake -->
+	<!-- Deminos // Iceflow Glades // Grand Wolf -->
+	<!-- Deminos // Valley Wilds // Grand Oxen -->
+	<!-- Deminos // Shrouded Woodlands // Grand Tiger -->
+	<!-- Deminos // Mountain Wilds // Grand Ram -->
+	<!-- Deminos // Wetland Marche // Grand Otter -->
+	<!-- Deminos // Burrow Wastes // Grand Badger -->
+	<!-- Deminos // Highwinds Mount // Grand Falcon -->
+	
+	<!-- The Grendale Wardenship // Empire_N -->
+	<!-- Grendale // House Weonyn // The City of Flamecoast-->
+	<Hero id="lord_1_1" faction="Faction.clan_empire_north_1" 
+		  text="{=cheville_weonyn_text}The third true Marquis Warden since the unification of Grendale, Cheville is not only royal blood but also the true descendant of the first King of Grendalisen. Cheville is called the Jewel of Grendale because of his astounding appearance and he continues to take great pride in it." />
+	<Hero id="lord_1_2" spouse="Hero.lord_1_411"	father="Hero.lord_1_1" mother="Hero.lord_1_21" 
+		  faction="Faction.clan_empire_north_1" 
+		  text="{=atlion_weonyn_text}Born the son of the Marquis Warden of The Grendale Wardenship he was named as the next ruler before they knew what his gender would be.  He earned the nickname the Lion of Grendale for showing a fierce bravery against overwhelming odds, and so the Lion became his personal sigil. When he was old enough his father named him a Duke but rather than give him a province to govern, he instead gave him Wardenship over the owls of Grendale." />
+	<Hero id="lord_1_41" father="Hero.lord_1_1" mother="Hero.lord_1_21" faction="Faction.clan_empire_north_1" 
+		  text="{=avae_ii_weonyn_text}Born the daughter of the Marquis Warden of The Grendale Wardenship, Avae falls constantly under her brothers shadow. Despite this she holds no ill will towards him. She was named Duchess of the Horses Warden by her father due to her love for horses. Her personal sigil is a Dove as the guards and many of the nobles often refer to her as 'Little Dove', she assumes this is due to her silver hair the real reason though is unknown." />
+	<Hero id="lord_1_411" spouse="Hero.lord_1_2" faction="Faction.clan_empire_north_1" 
+		  text="{nuae_weonyn_text} The daughter of the current king of the Elven Kingdom of Atheleon Nuae's marriage to Atlion was partly political. She originally met Atlion after being captured by Bandits who intended to sell her to slavers, she broke free from them and managed to flee deep into Grendale. The two forged a bond through the journey they made to get her home, needless to say she was overjoyed when she found out Atlion was the man her father planned to wed her too."/>
+	<Hero id="lord_1_31" faction="Faction.clan_empire_north_1" />
+	<Hero id="lord_1_1_1" faction="Faction.clan_empire_north_1" />
+	<Hero id="lord_1_1_2" faction="Faction.clan_empire_north_1" />
+	
+	<!-- Dead -->
+	<Hero id="lord_1_21" alive="false" faction="Faction.clan_empire_north_1" 
+		  text="{=avae_weonyn_text}The wife of Cheville and the 
+	mother of Atlion. Avae was a peace keeper among her own family before marrying into the royal family. She sadly 
+	died after childbirth, but she got to see both her children before she passed on." />
+	<!-- 
+	Alive:
+	Ruler Title: Marquis Warden
+	Nuae Weonyn - Elfkind - Dark Elf
+	Children:
+	
+	Dead:
+	-->
 </Heroes>
