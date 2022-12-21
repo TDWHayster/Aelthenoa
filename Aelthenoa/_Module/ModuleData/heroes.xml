@@ -21,7 +21,11 @@
 		  text="{=ser_gerrad_belmore_text}Ser Gerrad Belmore is a House Guard for House Elsio" />
 	<!-- Children -->
 	<!--
-		A brother and sister for lexia but step family 
+		A brother and sister for lexia
+	<Hero id="lord_elsion_elsio_child_1" father="Hero.lord_1_27_1" mother="Hero.lord_1_27_2" faction="Faction.clan_empire_south_1" text="{=}" />
+	<Hero id="lord_elsion_elsio_child_2" father="Hero.lord_1_27_1" mother="Hero.lord_1_27_2" faction="Faction.clan_empire_south_1" text="{=}" />
+		Grandin's Son - Mother Unknown
+	<Hero id="lord_elsion_elsio_child_3" father="Hero.lord_1_27" faction="Faction.clan_empire_south_1" text="{=}" />
 	-->
 	<!-- Dead -->
 	<Hero id="lord_1_14" father="Hero.lord_1_47_3" alive="false" faction="Faction.clan_empire_south_1"
@@ -33,20 +37,47 @@
 
 	<!-- Elsion // House Neoath // The Grand City of Ironspire -->
 	<!--
-		Bartheo Neoathis - Leader - Guardian/General/Combatant - "{bartheo_neoathis}"
-		Emilee Neoathis - Leader Wife - Non-Combatant/Good Diplomat/Core Supporter - "{emilee_neoathis}"
-		Apral Neoathis - Bartheo's Younger Sister - 21 - Skill Warrior/Sadistic/Generous - "{apral_neoathis}"
-		Kendrick Neoath - Bartheo's Cousin and Half Brother - Old Warrior/General/Highly Skilled Combatant/Slow due to age - "{Kendrick Neoath}"
-		Selen Neoath - Kendrick's Wife - Non-Combatant/Core Support - "{selen_neoath}"
-		Laoren Neoath - Kendrick's Daughter - Combatant/Skilled Warrior/Peacemaker - "{laoren_neoath}"
-		Barrish Neoath - Legitimized Bastard Son of Laoren and Twin of Julienna - Child/EducationFocus: Combat - "{barrish_neoath}"
-		Julienna Neoath - Legitimized Bastard Daughter of Laoren and Twin of Barrish - Child/EducationFocus: Diplomacy - "{julienna_neoath}"
-		Ser Sharun Westerling - House Guard/General/Combatant - "{ser_sharun_westerling}"
-		Ser Hectar Boatwright - House Guard/General/Combatant - "{ser_hectar_boatwright}"
-		Ser Breniell Cargyll - House Guard/General/Combatant - "{ser_breniell_cargyll}"
-		Ser Rohar Lychester - House Guard/General/Combatant - "{ser_rohar_lychester}"
+		Bartheo Neoathis - Leader - Guardian/General/Combatant - "{=bartheo_neoathis_text}"
+		Emilee Neoathis - Leader Wife - Non-Combatant/Good Diplomat/Core Supporter - "{=emilee_neoathis_text}"
+		Apral Neoathis - Bartheo's Younger Sister - 21 - Skill Warrior/Sadistic/Generous - "{=apral_neoathis_text}"
+		Kendrick Neoath - Bartheo's Cousin and Half Brother - Old Warrior/General/Highly Skilled Combatant/Slow due 
+		to age - "{=kendrick_neoath_text}"
+		Selen Neoath - Kendrick's Wife - Non-Combatant/Core Support - "{=selen_neoath_text}"
+		Laoren Neoath - Kendrick's Daughter - Combatant/Skilled Warrior/Peacemaker - "{=laoren_neoath_text}"
+	-->
+	<!-- Children -->
+	<!--
+		Barrish Neoath - Legitimized Bastard Son of Laoren and Twin of Julienna - Child/EducationFocus: Combat - 
+		"{=barrish_neoath_text}"
+		Julienna Neoath - Legitimized Bastard Daughter of Laoren and Twin of Barrish - Child/EducationFocus: 
+		Diplomacy - "{=julienna_neoath_text}"
+	-->
+		<!-- House Guards -->
+	<!--
+		Ser Sharun Westerling - House Guard/General/Combatant - "{=ser_sharun_westerling_text}"
+		Ser Hectar Boatwright - House Guard/General/Combatant - "{=ser_hectar_boatwright_text}"
+		Ser Breniell Cargyll - House Guard/General/Combatant - "{=ser_breniell_cargyll_text}"
+		Ser Rohar Lychester - House Guard/General/Combatant - "{=ser_rohar_lychester_text}"
 	-->
 	<!-- Elsion // House Balish // The Grand City of Rosegarden -->
+	<!--
+		Tyron Balish - Leader - 70 - Old Retired Warrior/Non-Combatant/Steward - "{=tyron_balish_text}"
+		Theodren Balish - 43 - Leader Oldest Son - Combatant/Skilled Warrior/Core Supporter - "{=theodren_balish_text}"
+		Broden Balish - 38 - Leader Middle Son - Combatant/Steward/Guardian - "{=broden_balish_text}"
+		Astris Balish - Leader Daughter - 20 - Combatant/General/Skilled Warrior - "{astris_balish_text}"
+		Shela Balish - Theodren's Wife - Non-Combatant - "{=shela_balish_text}"
+	-->	
+	<!-- Dead -->
+	<!--
+		Alsion Balish - Leader Wife - Non-Combatant/Peacemaker - "{=alison_balish_text)"
+		Jayse Balish - Leader Youngest Son - Combatant/Low Skill Warrior - "{=alison_balish_text)"
+	-->
+	<!-- Children -->
+	<!--
+		Aetheldred Balish - 14 - Theodren's Son - Child/EducationFocus: Combat - "{=aetheldred_balish_text}"
+		Lylian Balish - 10 - Theodren's Daughter - Child/EducationFocus: Governing - "{=aetheldred_balish_text}"
+	-->
+	
 	<!-- Elsion // House Staenis // The Grand City of Wardenglade -->
 	<!-- Elsion // House Estroth // The Grand City of Greyhavens -->
 	<!-- Elsion // House Marlin // The Grand City of Stoneholden -->
@@ -66,7 +97,7 @@
 
 	<!-- The Tribes of Deminos // Battania -->
 	<!-- Deminos // River Crags // Grand Bear -->
-	<!-- River Crags // Family Beorn // The Barrow of Riverlayel -->
+	<!-- River Crags // Family Beorn // Noble // The Barrow of Riverlayel -->
 	<!-- River Crags // Family Draenoth -->
 	<!-- River Crags // Family ????? -->
 	<!-- River Crags // Family ????? -->
@@ -77,7 +108,28 @@
 	<!-- River Crags // Family ????? -->
 
 	<!-- Deminos // Highpoint Fells // Grand Lion -->
-	<!-- Highpoint Fells // Family Throsson // The Barrow of Windbrooke -->
+	<!-- Highpoint Fells // Family Thros // Noble // The Barrow of Windbrooke -->
+	<!--
+		Nervinor Throsson - Leader - 31 - Grand Lion/Combatant/General/Highly Skilled - 
+		"{=nervinor_throsson_text}Nervinor was groomed by his father to be the "Grand Lion" of Windbarrow. In his youth the majority of his time was spent with his father whether on the field of battle learning strategy or in the chieftains hall learning about the politics. During this period he was know as the "Lion's Cub", although it sounded insulting to outsiders it showed a great deal of respect for the man."
+		Alelea Throsson - Leader Wife - 28 - Combatant/General/Lowly Skilled - "{=alelea_throsson_text}"
+		Kirsa Throsdottir - Leader Aunt - 65 - Non-Combatant/Peacemaker/Steward - "{=kirsa_throsdittor}"
+		Eadwulf Throsdottir - Leader Cousin - 36 - Core Supporter/Highly Skilled Warrior/General - "{=eadwulf_throsdottir}"
+	-->
+	<!-- Dead -->
+	<!--
+		Gurdren Throsson - Nervinor's Father - Grand Lion/Combatant/General/Highly Skilled - 
+		"{=gurdren_throsson_text}Careful planning between an Elsian Lord, The Grand Lion, and The Great Bear took place to force a battle in the pass of nearos. As the assault was taking place Gurdren was slain by one of the Yodelian Wardens, who was protecting the princess."
+		Nerva Throsson - Nervinor's Mother - Combatant - "{=nerva_throsson_text}"
+		Ishild Throsdottir - Eadwulf's Wife - Combatant - "{=ishild_throsdottir_text}"
+	-->
+	<!-- Children -->
+	<!--
+		Stigr Throsdottir - Eadwulf's Son - Child/EducationFocus: Combat - "{=stigr_throsdottir}"
+		Eadmear Throsdottir - Eadwulf's Son - Child/EducationFocus: Combat - "{=eadmear_throsdottir}"
+		Sighilde Throsdottir - Eadwulf's Daughter - Child/EducationFocus: Combat - "{=sighilde_throsdottir}"
+	-->
+	
 	<!-- Highpoint Fells // Family Derinos -->
 	<!-- Highpoint Fells // Family ????? -->
 	<!-- Highpoint Fells // Family ????? -->
@@ -99,7 +151,7 @@
 	<!-- Grendale // House Weonyn // The City of Flamecoast-->
 	<Hero id="lord_1_1" faction="Faction.clan_empire_north_1" 
 		  text="{=cheville_weonyn_text}The third true Marquis Warden since the unification of Grendale, Cheville is not only royal blood but also the true descendant of the first King of Grendalisen. Cheville is called the Jewel of Grendale because of his astounding appearance and he continues to take great pride in it." />
-	<Hero id="lord_1_2" spouse="Hero.lord_1_411"	father="Hero.lord_1_1" mother="Hero.lord_1_21" 
+	<Hero id="lord_1_2" spouse="Hero.lord_1_411" father="Hero.lord_1_1" mother="Hero.lord_1_21" 
 		  faction="Faction.clan_empire_north_1" 
 		  text="{=atlion_weonyn_text}Born the son of the Marquis Warden of The Grendale Wardenship he was named as the next ruler before they knew what his gender would be.  He earned the nickname the Lion of Grendale for showing a fierce bravery against overwhelming odds, and so the Lion became his personal sigil. When he was old enough his father named him a Duke but rather than give him a province to govern, he instead gave him Wardenship over the owls of Grendale." />
 	<Hero id="lord_1_41" father="Hero.lord_1_1" mother="Hero.lord_1_21" faction="Faction.clan_empire_north_1" 
@@ -112,9 +164,7 @@
 	
 	<!-- Dead -->
 	<Hero id="lord_1_21" alive="false" faction="Faction.clan_empire_north_1" 
-		  text="{=avae_weonyn_text}The wife of Cheville and the 
-	mother of Atlion. Avae was a peace keeper among her own family before marrying into the royal family. She sadly 
-	died after childbirth, but she got to see both her children before she passed on." />
+		  text="{=avae_weonyn_text}The wife of Cheville and the mother of Atlion. Avae was a peace keeper among her own family before marrying into the royal family. She sadly died after childbirth, but she got to see both her children before she passed on." />
 	<!-- 
 	Alive:
 	Ruler Title: Marquis Warden

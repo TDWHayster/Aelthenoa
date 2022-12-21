@@ -4,7 +4,8 @@
     <NPCCharacter id="lord_1_14"
                   name="{andrion_elsio}Andrion Elsio"
                   default_group="Infantry"
-                  age="50" voice="curt"
+                  age="50" 
+                  voice="curt"
                   is_hero="true"
                   culture="Culture.empire"
                   occupation="Lord">
@@ -16,7 +17,7 @@
                             key="001B580D00004002628571B58D58888992348252BAC136C9475618388F9A4131007776030778797300000000000000000000000000000000000000003AF440C3" />
         </face>
         <Traits>
-            <Trait id="BalancedFightingSkills" value="0" />
+            <Trait id="BalancedFightingSkills" value="9" />
             <Trait id="Commander" value="5" />
             <Trait id="Politician" value="10" />
             <Trait id="Manager" value="7" />
@@ -471,7 +472,7 @@
     <!-- Grendale // House Weonyn // The City of Flamecoast-->
     <NPCCharacter id="lord_1_1"
                   name="{=cheville_weonyn}Cheville Weonyn"
-                  age="52"
+                  age="53"
                   voice="curt"
                   default_group="Cavalry"
                   is_hero="true"
@@ -516,7 +517,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_1_2"
                   name="{=atlion_weonyn}Atlion Weonyn"
-                  age="22"
+                  age="23"
                   voice="earnest"
                   default_group="Cavalry"
                   is_hero="true"
@@ -529,8 +530,12 @@
                             key="0005E80700000002996697B5ADAB959A78999668743273447AB68778A75696920007B008059879880000000000000FFE00000000000000000000000000C80004" />
         </face>
         <Traits>
+            <Trait id="KnightFightingSkills"
+                                   value="5" />
+            <Trait id="Commander"
+                   value="8" />
             <Trait id="Politician"
-                   value="3" />
+                   value="6" />
             <Trait id="Manager"
                    value="8" />
             <Trait id="Generosity"
@@ -548,7 +553,7 @@
     <NPCCharacter id="lord_1_41"
                   name="{=avae_ii_weonyn}Avae II Weonyn"
                   default_group="Cavalry"
-                  age="16"
+                  age="17"
                   voice="curt"
                   is_hero="true"
                   is_female="true"
@@ -586,7 +591,7 @@
     <NPCCharacter id="lord_1_411"
                   name="{=nuae_weonyn}Nuae Weonyn"
                   default_group="Cavalry"
-                  age="20"
+                  age="21"
                   voice="curt"
                   is_hero="true"
                   race="elf"
@@ -595,10 +600,10 @@
                   occupation="Lord">
         <face>
             <BodyProperties version="4"
-                            age="21.71"
+                            age="22.76"
                             weight="0.1096"
-                            build="0.662"  
-                            key="003F680F1100200699B59BA686A5D48BB5A673F8A57C849D76450D4E89757887006A260306596856000000000000000000000000000000000000000048CC2000" />
+                            build="0.662"
+                            key="003FF40F1100200699B59BA686A5D48BB5A673F8A57C849D76450D4E89757887006A260306596856000000000000000000000000000000000000000048CC2003" />
         </face>
         <skills></skills>
         <Traits>
@@ -730,7 +735,7 @@
     </NPCCharacter>
     <NPCCharacter id="lord_1_21"
                   name="{=avae_weonyn}Avae Weonyn"
-                  age="42"
+                  age="43"
                   voice="earnest"
                   is_hero="true"
                   is_female="true"

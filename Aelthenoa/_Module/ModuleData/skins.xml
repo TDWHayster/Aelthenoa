@@ -14,7 +14,7 @@
           body_meta_mesh_upperbody="box_a"
           legs_mesh="feet_male_a"
           hands_mesh="hands_male_a"
-          face_meta_mesh="head_male_a"
+          face_meta_mesh="head_elf_male_a"
           underwear_bottom_mesh="underwear_male"
           underwear_top_mesh="" >
       <deform_keys>
@@ -1873,8 +1873,8 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />		
         
-        <!-- Test -->
-        <eye_color_gradient_point point="1.0, 0.047, 0.047" />
+        <!-- Red -->
+        <eye_color_gradient_point point="1.0, 0.47, 0.47" />
       </eye_color_gradient_points>
       <face_textures group_id="1">
         <face_texture name="head_male_a"
@@ -3424,8 +3424,8 @@
           <!--Dark Brown-->
           <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-          <!-- Test -->
-          <eye_color_gradient_point point="1.0, 0.047, 0.047" />
+          <!-- Red -->
+          <eye_color_gradient_point point="1.0, 0.47, 0.47" />
         </eye_color_gradient_points>
       <face_textures>
         <face_texture name="head_elf_female_a"
@@ -3586,7 +3586,7 @@
           body_meta_mesh_upperbody="box_a"
           legs_mesh="feet_female_a"
           hands_mesh="hands_female_a"
-          face_meta_mesh="head_male_a"
+          face_meta_mesh="head_elf_male_a"
           underwear_bottom_mesh="underwear_male_teen"
           underwear_top_mesh="">
       <deform_keys>
@@ -5058,7 +5058,7 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-        <!-- Test -->
+        <!-- Red -->
         <eye_color_gradient_point point="1.0, 0.047, 0.047" />
       </eye_color_gradient_points>
       <face_textures group_id="1">
@@ -6623,7 +6623,7 @@
           body_meta_mesh_upperbody="box_a"
           legs_mesh="feet_female_a"
           hands_mesh="hands_female_a"
-          face_meta_mesh="head_male_a"
+          face_meta_mesh="head_elf_male_a"
           underwear_bottom_mesh="underwear_male_teen"
           underwear_top_mesh="">
       <deform_keys>
@@ -8084,7 +8084,7 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-        <!-- Test -->
+        <!-- Red -->
         <eye_color_gradient_point point="1.0, 0.047, 0.047" />
       </eye_color_gradient_points>
       <face_textures group_id="1">
@@ -9666,7 +9666,7 @@
           body_meta_mesh_upperbody="box_a"
           legs_mesh="feet_female_a"
           hands_mesh="hands_female_a"
-          face_meta_mesh="head_male_a"
+          face_meta_mesh="head_elf_male_a"
           underwear_bottom_mesh="underwear_male_teen"
           underwear_top_mesh="" >
       <deform_keys>
@@ -11116,7 +11116,7 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-        <!-- Test -->
+        <!-- Red -->
         <eye_color_gradient_point point="1.0, 0.047, 0.047" />
       </eye_color_gradient_points>
       <face_textures group_id="1">
@@ -12555,7 +12555,7 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-        <!-- Test -->
+        <!-- Red -->
         <eye_color_gradient_point point="1.0, 0.047, 0.047" />
       </eye_color_gradient_points>
       <face_textures>
@@ -12696,7 +12696,7 @@
           body_meta_mesh_upperbody="box_a"
           legs_mesh="feet_female_kid3"
           hands_mesh="hands_female_kid3"
-          face_meta_mesh="head_male_a"
+          face_meta_mesh="head_elf_male_a"
           underwear_bottom_mesh="underwear_baby"
           underwear_top_mesh="" >
       <deform_keys>
@@ -13839,7 +13839,7 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-        <!-- Test -->
+        <!-- Red -->
         <eye_color_gradient_point point="1.0, 0.047, 0.047" />
       </eye_color_gradient_points>
       <face_textures group_id="1">
@@ -15030,7 +15030,7 @@
         <!--Dark Brown-->
         <eye_color_gradient_point point="0.02, 0.01, 0.01" />
 
-        <!-- Test -->
+        <!-- Red -->
         <eye_color_gradient_point point="1.0, 0.047, 0.047" />
       </eye_color_gradient_points>
       <face_textures>

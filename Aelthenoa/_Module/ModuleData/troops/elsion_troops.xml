@@ -1,0 +1,970 @@
+<NPCCharacters>
+
+   <NPCCharacter id="elsian_recruit"
+                 name="{=elsian_recruit}Elsian Recruit"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+		     	 is_basic_troop="true"
+				 level="6">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="20" />
+		  <skill id="TwoHanded" value="10" />
+		  <skill id="Polearm" value="20" />
+		  <skill id="Bow" value="5" />
+		  <skill id="Crossbow" value="5" />
+		  <skill id="Throwing" value="5" />
+		  <skill id="Athletics" value="20" />
+		  <skill id="Riding" value="5" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_levy_footman" />
+		   <upgrade_target id="NPCCharacter.elsian_levy_bowman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_levy_footman"
+                 name="{=elsian_levy_footman}Elsian Levy Footman"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="11">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="40" />
+		  <skill id="TwoHanded" value="20" />
+		  <skill id="Polearm" value="40" />
+		  <skill id="Bow" value="5" />
+		  <skill id="Crossbow" value="20" />
+		  <skill id="Throwing" value="15" />
+		  <skill id="Athletics" value="40" />
+		  <skill id="Riding" value="15" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_spearman" />
+		   <upgrade_target id="NPCCharacter.elsian_skirmisher" />
+		   <upgrade_target id="NPCCharacter.elsian_heavy_footman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   <equipment slot="Horse" id="Item." />
+		   <equipment slot="HorseHarness" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_spearman"
+                 name="{=elsian_spearman}Elsian Spearman"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="70" />
+		  <skill id="TwoHanded" value="40" />
+		  <skill id="Polearm" value="70" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="30" />
+		  <skill id="Throwing"  value="30" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="40" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_pikeman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_pikeman"
+                 name="{=elsian_pikeman}Elsian Pikeman"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		 <skill id="OneHanded" value="90" />
+		 <skill id="TwoHanded" value="100" />
+		 <skill id="Polearm" value="80" />
+		 <skill id="Bow" value="15" />
+		 <skill id="Crossbow" value="35" />
+		 <skill id="Throwing" value="35" />
+		 <skill id="Athletics" value="110" />
+		 <skill id="Riding" value="60" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_skirmisher"
+                 name="{=elsian_skirmisher}Elsian Skirmisher"
+				 default_group="Skirmisher"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="70" />
+		  <skill id="TwoHanded" value="40" />
+		  <skill id="Polearm" value="30" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="30" />
+		  <skill id="Throwing"  value="70" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="40" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_heavy_skirmisher" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_heavy_skirmisher"
+                 name="{=elsian_heavy_skirmisher}Elsian Heavy Skirmisher"
+				 default_group="Skirmisher"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		 <skill id="OneHanded" value="90" />
+		 <skill id="TwoHanded" value="50" />
+		 <skill id="Polearm" value="40" />
+		 <skill id="Bow" value="15" />
+		 <skill id="Crossbow" value="35" />
+		 <skill id="Throwing" value="100" />
+		 <skill id="Athletics" value="110" />
+		 <skill id="Riding" value="60" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_heavy_footman"
+                 name="{=elsian_heavy_footman}Elsian Heavy Footman"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="70" />
+		  <skill id="TwoHanded" value="40" />
+		  <skill id="Polearm" value="30" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="30" />
+		  <skill id="Throwing"  value="30" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="40" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_knight" />
+		   <upgrade_target id="NPCCharacter.elsian_horseman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_knight"
+                 name="{=elsian_knight}Elsian Knight"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		 <skill id="OneHanded" value="100" />
+		 <skill id="TwoHanded" value="50" />
+		 <skill id="Polearm" value="40" />
+		 <skill id="Bow" value="15" />
+		 <skill id="Crossbow" value="35" />
+		 <skill id="Throwing" value="40" />
+		 <skill id="Athletics" value="110" />
+		 <skill id="Riding" value="60" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_dismounted_man_at_arms" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_dismounted_man_at_arms"
+                 name="{=elsian_dismounted_man_at_arms}Elsian Dismounted Man-At-Arms"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="26">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="130" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="50" />
+		  <skill id="Bow" value="20" />
+		  <skill id="Crossbow" value="60" />
+		  <skill id="Throwing" value="50" />
+		  <skill id="Athletics" value="130" />
+		  <skill id="Riding" value="80" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_horseman"
+                 name="{=elsian_horseman}Elsian Horseman"
+				 default_group="Cavalry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="80" />
+		  <skill id="TwoHanded" value="45" />
+		  <skill id="Polearm" value="110" />
+		  <skill id="Bow" value="40" />
+		  <skill id="Crossbow" value="40" />
+		  <skill id="Throwing" value="30" />
+		  <skill id="Athletics" value="60" />
+		  <skill id="Riding" value="120" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_cavalry" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   <equipment slot="Horse" id="Item." />
+		   <equipment slot="HorseHarness" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_cavalry"
+                 name="{=elsian_cavalry}Elsian Cavalry"
+				 default_group="Cavalry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="26">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="130" />
+		  <skill id="TwoHanded" value="80" />
+		  <skill id="Polearm" value="130" />
+		  <skill id="Bow" value="20" />
+		  <skill id="Crossbow" value="60" />
+		  <skill id="Throwing" value="80" />
+		  <skill id="Athletics" value="60" />
+		  <skill id="Riding" value="130" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_man_at_arms" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   <equipment slot="Horse" id="Item." />
+		   <equipment slot="HorseHarness" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_man_at_arms"
+                 name="{=elsian_man_at_arms}Elsian Man-At-Arms"
+				 default_group="Cavalry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="31">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="180" />
+		  <skill id="TwoHanded" value="130" />
+		  <skill id="Polearm" value="180" />
+		  <skill id="Bow" value="70" />
+		  <skill id="Crossbow" value="60" />
+		  <skill id="Throwing" value="80" />
+		  <skill id="Athletics" value="110" />
+		  <skill id="Riding" value="180" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   <equipment slot="Horse" id="Item." />
+		   <equipment slot="HorseHarness" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_levy_bowman"
+                 name="{=elsian_levy_bowman}Elsian Levy Bowman"
+				 default_group="Ranged"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="11">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="40" />
+		  <skill id="TwoHanded" value="15" />
+		  <skill id="Polearm" value="20" />
+		  <skill id="Bow" value="40" />
+		  <skill id="Crossbow" value="40" />
+		  <skill id="Throwing" value="15" />
+		  <skill id="Athletics" value="40" />
+		  <skill id="Riding" value="20" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_crossbowman" />
+		   <upgrade_target id="NPCCharacter.elsian_bowman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_crossbowman"
+                 name="{=elsian_crossbowman}Elsian Crossbowman"
+				 default_group="Ranged"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="70" />
+		  <skill id="TwoHanded" value="30" />
+		  <skill id="Polearm" value="40" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="70" />
+		  <skill id="Throwing" value="30" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="40" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_sharpshooter" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_sharpshooter"
+                 name="{=elsian_sharpshooter}Elsian Sharpshooter"
+				 default_group="Ranged"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="100" />
+		  <skill id="TwoHanded" value="45" />
+		  <skill id="Polearm" value="45" />
+		  <skill id="Bow" value="15" />
+		  <skill id="Crossbow" value="100" />
+		  <skill id="Throwing" value="60" />
+		  <skill id="Athletics" value="100" />
+		  <skill id="Riding" value="60" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_emboldened_sharpshooter" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_emboldened_sharpshooter"
+                 name="{=elsian_emboldened_sharpshooter}Elsian Emboldened Sharpshooter"
+				 default_group="Ranged"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="26">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="130" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="80" />
+		  <skill id="Bow" value="20" />
+		  <skill id="Crossbow" value="130" />
+		  <skill id="Throwing" value="60" />
+		  <skill id="Athletics" value="130" />
+		  <skill id="Riding" value="80" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_bowman"
+                 name="{=elsian_bowman}Elsian Bowman"
+				 default_group="Ranged"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="70" />
+		  <skill id="TwoHanded" value="30" />
+		  <skill id="Polearm" value="40" />
+		  <skill id="Bow" value="70" />
+		  <skill id="Crossbow" value="10" />
+		  <skill id="Throwing" value="30" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="40" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_heavy_bowman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_heavy_bowman"
+                 name="{=elsian_heavy_bowman}Elsian Heavy Bowman"
+				 default_group="Ranged"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="100" />
+		  <skill id="TwoHanded" value="45" />
+		  <skill id="Polearm" value="45" />
+		  <skill id="Bow" value="100" />
+		  <skill id="Crossbow" value="15" />
+		  <skill id="Throwing" value="60" />
+		  <skill id="Athletics" value="100" />
+		  <skill id="Riding" value="60" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+
+<!-- Noble -->
+   <NPCCharacter id="elsian_low_noble"
+                 name="{=elsian_low_noble}Elsian Low-Born Noble"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+		     	 is_basic_troop="true"
+				 level="11">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="45" />
+		  <skill id="TwoHanded" value="10" />
+		  <skill id="Polearm" value="40" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="10" />
+		  <skill id="Throwing" value="10" />
+		  <skill id="Athletics" value="30" />
+		  <skill id="Riding" value="40" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_noble_footman" />
+		   <upgrade_target id="NPCCharacter.elsian_noble_heavy_footman" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_footman"
+                 name="{=elsian_noble_footman}Elsian Noble Footman"
+				 default_group="Skirmisher"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="100" />
+		  <skill id="TwoHanded" value="30" />
+		  <skill id="Polearm" value="10" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="10" />
+		  <skill id="Throwing" value="100" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="30" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_noble_skirmisher" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_skirmisher"
+                 name="{=elsian_noble_skirmisher}Elsian Noble Skirmisher"
+				 default_group="Skirmisher"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="100" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="15" />
+		  <skill id="Bow" value="45" />
+		  <skill id="Crossbow" value="45" />
+		  <skill id="Throwing" value="110" />
+		  <skill id="Athletics" value="100" />
+		  <skill id="Riding" value="90" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_noble_heavy_skirmisher" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_heavy_skirmisher"
+                 name="{=elsian_noble_heavy_skirmisher}Elsian Noble Heavy Skirmisher"
+				 default_group="Skirmisher"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="26">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="130" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="160" />
+		  <skill id="Bow" value="20" />
+		  <skill id="Crossbow" value="50" />
+		  <skill id="Throwing" value="160" />
+		  <skill id="Athletics" value="130" />
+		  <skill id="Riding" value="80" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_noble_house_guard" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_house_guard"
+                 name="{=elsian_noble_house_guard}Elsian Noble House Guard"
+				 default_group="Skirmisher"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="31">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="Athletics" value="200" />
+		  <skill id="Riding" value="60" />
+		  <skill id="OneHanded" value="220" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="30" />
+		  <skill id="Bow" value="25" />
+		  <skill id="Crossbow" value="60" />
+		  <skill id="Throwing" value="260" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_heavy_footman"
+                 name="{=elsian_noble_heavy_footman}Elsian Noble Heavy Footman"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="16">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="100" />
+		  <skill id="TwoHanded" value="30" />
+		  <skill id="Polearm" value="10" />
+		  <skill id="Bow" value="10" />
+		  <skill id="Crossbow" value="10" />
+		  <skill id="Throwing" value="100" />
+		  <skill id="Athletics" value="70" />
+		  <skill id="Riding" value="30" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_noble_knight" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_knight"
+                 name="{=elsian_noble_knight}Elsian Noble Knight"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="21">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="100" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="15" />
+		  <skill id="Bow" value="45" />
+		  <skill id="Crossbow" value="45" />
+		  <skill id="Throwing" value="110" />
+		  <skill id="Athletics" value="100" />
+		  <skill id="Riding" value="90" />
+	   </skills>
+	   <upgrade_targets>
+	       <upgrade_target id="NPCCharacter.elsian_noble_dismounted_man_at_arms" />
+	       <upgrade_target id="NPCCharacter.elsian_noble_man_at_arms" />
+	   </upgrade_targets>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_dismounted_man_at_arms"
+                 name="{=elsian_noble_dismounted_man_at_arms}Elsian Noble Dismounted Man-At-Arms"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="26">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="130" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="160" />
+		  <skill id="Bow" value="20" />
+		  <skill id="Crossbow" value="50" />
+		  <skill id="Throwing" value="160" />
+		  <skill id="Athletics" value="130" />
+		  <skill id="Riding" value="80" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." /> 
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+   <NPCCharacter id="elsian_noble_man_at_arms"
+                 name="{=elsian_noble_man_at_arms}Elsian Noble Man-At-Arms"
+				 default_group="Infantry"
+				 occupation="Soldier"
+				 culture="Culture.elsian"
+				 level="26">
+       <face>
+	       <face_key_template value="BodyProperty.fighter_elsian" />
+	   </face>
+	   <skills>
+		  <skill id="OneHanded" value="130" />
+		  <skill id="TwoHanded" value="60" />
+		  <skill id="Polearm" value="160" />
+		  <skill id="Bow" value="20" />
+		  <skill id="Crossbow" value="50" />
+		  <skill id="Throwing" value="160" />
+		  <skill id="Athletics" value="80" />
+		  <skill id="Riding" value="130" />
+	   </skills>
+	   <Equipments>
+	       <EquipmentRoster>
+		   <equipment slot="Item0" id="Item." />
+		   <equipment slot="Item1" id="Item." />
+		   <equipment slot="Item2" id="Item." />
+		   <equipment slot="Item3" id="Item." />
+		   <equipment slot="Head" id="Item." /> 
+		   <equipment slot="Cape" id="Item." /> 
+		   <equipment slot="Body" id="Item." /> 
+		   <equipment slot="Leg" id="Item." /> 
+		   <equipment slot="Gloves" id="Item." />
+		   <equipment slot="Horse" id="Item." />
+		   <equipment slot="HorseHarness" id="Item." />
+		   </EquipmentRoster>
+	   </Equipments>
+   </NPCCharacter>
+
+</NPCCharacters>

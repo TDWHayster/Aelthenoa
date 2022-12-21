@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <string id="str_player_father_name.vlandia"
+          text="{=ECM_Player_Father_Vlandia}Baldrim" />
+  <string id="str_player_father_name.battania"
+          text="{=4IZnbvlD}Baudein" />
+  <string id="str_player_father_name.khuzait"
+          text="{=Sfd3aqia}Bandan" />
+  <string id="str_player_father_name.sturgia"
+          text="{=XsIq2RFs}Baldim" />
+  <string id="str_player_father_name.aserai"
+          text="{=GCqWwDWg}Baladir" />
+  <string id="str_player_father_name.empire"
+          text="{=776J8Fng}Baldimos" />
+  <string id="str_player_mother_name.vlandia"
+          text="{=ECM_Player_Mother_Vlandia}Tertha" />
+  <string id="str_player_mother_name.battania"
+          text="{=EhELIf65}Teruin" />
+  <string id="str_player_mother_name.khuzait"
+          text="{=opUBnFym}Terte" />
+  <string id="str_player_mother_name.sturgia"
+          text="{=Z33uQl2f}Tarya" />
+  <string id="str_player_mother_name.aserai"
+          text="{=DELVwiEM}Tira" />
+  <string id="str_player_mother_name.empire"
+          text="{=yvdQ9MD6}Terea" />
+          
+    <string id="str_culture_description.vlandia" text="{=ECM_Description_Vlandia}The Vlandians are the descendants of adventurers from the west who lived under the Empire for centuries before forming an independent kingdom. With the decline of imperial authority, they have evolved into a well organised feudal society led by a caste of warlike nobles who prefer to fight with spears and lances on horseback." />
+    <string id="str_culture_description.battania" text="{=c1Ag8YJS}The Battanians still remember the olden days when the woods stretched across northern Calradia, and the Empire and its cities had yet to violate their sanctity. The fierce warriors remain loyal to their traditional ways. They paint their faces when going to battle and even their noblemen prefer to fight on foot while using great axes and two-handed swords with deadly efficiency." />
+    <string id="str_culture_description.khuzait" text="{=HkZ4E94O}The Khuzait confederation of steppe tribes used to live a nomadic life, but have recently settled in the eastern frontier of the Empire and are slowly transitioning into an agrarian society with permanent town centers. Despite this, they still retain many aspects of their nomadic life, including their affinity with horses. They are masters of mounted archery, shooting and then galloping out of reach." />
+    <string id="str_culture_description.sturgia" text="{=HD2wzAxz}Sturgians are the descendants of the foreign tribes of northern Calradia. As the empire expanded into their cold forests, they found a ready market for the luxurious furs of woodland animals whom they traditionally hunted and trapped. Sturgian chieftains became princes, vying for pre-eminence with the help of Nord mercenaries who migrated into their realm. They are good hunters and wanderers, travelling far in search of opportunities both for trade and for plunder." />
+    <string id="str_culture_description.aserai" text="{=Khr5yETv}The Aserai are the inhabitants of the Nahasa desert, a mixture of nomadic bedouin and settled oasis farmers. They are famous for their horsemanship and their knowledge of the learning of many lands, especially medicine, gained from lying on some of the continent's most lucrative trade routes. Each clan is fiercely proud of its lineage and often jealous of the others, but when united by a charismatic leader, they become a major force in the south." />
+    <string id="str_culture_description.empire" text="{=iLEhyGI8}The Calradian Empire is in decline. Even before the suspicious death of the Emperor Arenicos, the once united realm was torn by political rivalries. Today, those factions are in open war. Yet Calradians endure. Their methodical study of defensive strategy, in which garrison cities slow down invading forces until mobile field armies can come to their rescue, helps hold their neighbors at bay." />
+
+    <string id="str_culture_rich_name.vlandia" text="{=ECM_Culture_Rich_Name_Vlandia}French" />
+    <string id="str_culture_rich_name.battania" text="{=bgjiFSHZ}Battanians" />
+    <string id="str_culture_rich_name.khuzait" text="{=vJOWy1QF}Khuzaits" />
+    <string id="str_culture_rich_name.sturgia" text="{=C4qjBqLO}Sturgians" />
+    <string id="str_culture_rich_name.aserai" text="{=aseraimembers}Aserai" />
+    <string id="str_culture_rich_name.empire" text="{=empiremembers}Empire" />
+
+    <string id="str_faction_official.empire" text="{=2CgZVkDj}an archon" />
+    <string id="str_faction_official.empire_f" text="{=u3c9M8vx}an archoness" />
+    <string id="str_faction_ruler.empire" text="{=jbQ3LYBl}emperor" />
+    <string id="str_faction_ruler.empire_f" text="{=tDA5dhn3}empress" />
+    <string id="str_faction_official.vlandia" text="{=ECM_Faction_Official_Vlandia}a baron" />
+    <string id="str_faction_official.vlandia_f" text="{=ECM_Faction_Official_F_Vlandia}a baroness" />
+    <string id="str_faction_ruler.vlandia" text="{=ECM_Faction_Ruler_Vlandia}king" />
+    <string id="str_faction_ruler.vlandia_f" text="{=ECM_Faction_Ruler_F_Vlandia}queen" />
+    <string id="str_faction_official.aserai" text="{=owg6SqHF}an emir" />
+    <string id="str_faction_official.aserai_f" text="{=G4XXubLg}an emira" />
+    <string id="str_faction_ruler.aserai" text="{=Y5byltUT}sultan" />
+    <string id="str_faction_ruler.aserai_f" text="{=AkgIYqHT}sultana" />
+    <string id="str_faction_official.battania" text="{=0zz1iDMY}a chieftain" />
+    <string id="str_faction_official.battania_f" text="{=chieftainfemale}a chieftain" />
+    <string id="str_faction_ruler.battania" text="{=sKnYLPkn}king" />
+    <string id="str_faction_ruler.battania_f" text="{=anHqaNK0}queen" />
+    <string id="str_faction_official.khuzait" text="{=arHXmqqc}a beg" />
+    <string id="str_faction_official.khuzait_f" text="{=t6DiaDQ3}a begum" />
+    <string id="str_faction_ruler.khuzait" text="{=bFpLKvcS}khan" />
+    <string id="str_faction_ruler.khuzait_f" text="{=TmKbTxQy}khatun" />
+    <string id="str_faction_official.sturgia" text="{=0zz1iDMY}a chieftain" />
+    <string id="str_faction_official.sturgia_f" text="{=chieftainfemale}a chieftain" />
+    <string id="str_faction_ruler.sturgia" text="{=xD9xlbXt}prince" />
+    <string id="str_faction_ruler.sturgia_f" text="{=cBY2MxY0}princess" />
+  
+    <string id="str_faction_ruler_term_in_speech.empire" text="{=lpbDPuuW}{?RULER.GENDER}the Empress{?}the Emperor{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.aserai" text="{=REdb7vbQ}{?RULER.GENDER}Sultana{?}Sultan{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.battania" text="{=pcy8IXDf}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.khuzait" text="{=VoZBLWay}{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}" />
+    <string id="str_faction_ruler_term_in_speech.sturgia" text="{=GPW3ku2Y}{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.vlandia" text="{=ECM_Faction_Ruler_Term_Vlandia}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+  
+    <string id="str_faction_ruler_name_with_title.empire" text="{=7pAZatbz}{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.empire" text="{=nAaT19CC}{?RULER.GENDER}Archoness{?}Archon{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.vlandia" text="{=ECM_Faction_Ruler_Name_And_Title_Vlandia}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.vlandia" text="{=ECM_Faction_Noble_Name_And_Title_Vlandia}{?RULER.GENDER}Baroness{?}Baron{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.battania" text="{=lb13ceVM}{?RULER.GENDER}High Queen{?}High King{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.battania" text="{=X4qO3jBf}{?RULER.GENDER}Banmormaer{?}Mormaer{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.khuzait" text="{=VoZBLWay}{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}" />
+    <string id="str_faction_noble_name_with_title.khuzait" text="{=BbYFboh2}{RULER.NAME} {?RULER.GENDER}Begum{?}Beg{\?}" />
+    <string id="str_faction_ruler_name_with_title.aserai" text="{=REdb7vbQ}{?RULER.GENDER}Sultana{?}Sultan{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.aserai" text="{=jM9KGCIa}{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.sturgia" text="{=nojcK4ia}{?RULER.GENDER}Grand Princess{?}Grand Prince{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.sturgia" text="{=lqm9PfF1}{?RULER.GENDER}Knyaginya{?}Knyaz{\?} {RULER.NAME}" />
+    
+    <string id="str_adjective_for_faction.khuzait" text="{=sZLd6VHi}Khuzait" />
+    <string id="str_adjective_for_faction.aserai" text="{=aseraifaction}Aserai" />
+    <string id="str_adjective_for_faction.battania" text="{=ZvoyX6DX}Battanian" />
+    <string id="str_adjective_for_faction.vlandia" text="{=ECM_vlandiafaction}French" />
+    <string id="str_adjective_for_faction.sturgia" text="{=OxiaKT0G}Sturgian" />
+    <string id="str_adjective_for_faction.empire" text="{=3EGllWkd}northern imperial" />
+    <string id="str_adjective_for_faction.empire_w" text="{=dGDYBpzz}western imperial" />
+    <string id="str_adjective_for_faction.empire_s" text="{=Vvo92lyj}southern imperial" />
+    
+    <string id="str_short_term_for_faction.khuzait" text="{=vJOWy1QF}Khuzaits" />
+    <string id="str_short_term_for_faction.aserai" text="{=aseraimembers}Aserai" />
+    <string id="str_short_term_for_faction.battania" text="{=bgjiFSHZ}Battanians" />
+    <string id="str_short_term_for_faction.vlandia" text="{=ECM_Faction_Short_Term_Vlandia}French" />
+    <string id="str_short_term_for_faction.sturgia" text="{=C4qjBqLO}Sturgians" />
+    <string id="str_short_term_for_faction.empire" text="{=NF627oiX}Northern Empire" />
+    <string id="str_short_term_for_faction.empire_w" text="{=yG3YUySN}Western Empire" />
+    <string id="str_short_term_for_faction.empire_s" text="{=frBQ9mbP}Southern Empire" />
+    
+    <string id="str_faction_formal_name_for_culture.vlandia" text="{=ECM_Culture_Formal_Name_Vlandia}Kingdom of France" />
+    <string id="str_faction_formal_name_for_culture.battania" text="{=qaDIU0XC}High Kingdom of the Battanians" />
+    <string id="str_faction_formal_name_for_culture.khuzait" text="{=bF7HmNGQ}Khuzait Khanate" />
+    <string id="str_faction_formal_name_for_culture.sturgia" text="{=iYCR3xuQ}Principality of Sturgia" />
+    <string id="str_faction_formal_name_for_culture.aserai" text="{=eb0nLx5E}Aserai Sultanate" />
+    <string id="str_faction_formal_name_for_culture.empire" text="{=AIh1Ik4A}Calradian Empire" />
+    
+    <string id="str_faction_informal_name_for_culture.vlandia" text="{=ECM_Culture_Informal_Name_Vlandia}the French" />
+    <string id="str_faction_informal_name_for_culture.battania" text="{=eRqURgZY}the Battanians" />
+    <string id="str_faction_informal_name_for_culture.khuzait" text="{=OzazmGBi}the Khuzaits" />
+    <string id="str_faction_informal_name_for_culture.sturgia" text="{=2UCptBFi}the Sturgians" />
+    <string id="str_faction_informal_name_for_culture.aserai" text="{=fApjg2ae}the Aserai" />
+    <string id="str_faction_informal_name_for_culture.empire" text="{=6UUymZhL}the Empire" />
+    
+    <string id="str_adjective_for_culture.khuzait" text="{=sZLd6VHi}Khuzait" />
+    <string id="str_adjective_for_culture.aserai" text="{=NaNMRPv4}Aserai" />
+    <string id="str_adjective_for_culture.battania" text="{=ZvoyX6DX}Battanian" />
+    <string id="str_adjective_for_culture.vlandia" text="{=ECM_Culture_Adjective_Vlandia}French" />
+    <string id="str_adjective_for_culture.sturgia" text="{=OxiaKT0G}Sturgian" />
+    <string id="str_adjective_for_culture.empire" text="{=5S1zPgTm}imperial" />
+    
+    <string id="str_neutral_term_for_culture.khuzait" text="{=vJOWy1QF}Khuzaits" />
+    <string id="str_neutral_term_for_culture.aserai" text="{=aseraimembers}Aserai" />
+    <string id="str_neutral_term_for_culture.battania" text="{=bgjiFSHZ}Battanians" />
+    <string id="str_neutral_term_for_culture.vlandia" text="{=ECM_Culture_Neutral_Term_Vlandia}French" />
+    <string id="str_neutral_term_for_culture.sturgia" text="{=C4qjBqLO}Sturgians" />
+    <string id="str_neutral_term_for_culture.empire" text="{=CXUXk5ai}imperials" />
+
+
+
+        <string id="str_player_father_name.german" text="{=ECM_Player_Father_german}Albrecht" />
+        <string id="str_player_mother_name.german" text="{=ECM_Player_Mother_german}Hannah" />
+        <string id="str_culture_description.german" text="{=ECM_Description_german}The Germans bear a heavy heritage, as they descend from both the Goths and the Franks. While they were not part of the Roman Empire, history decided that they would be part of one of the Empires that would claim it's heritage. While the society is not exactly feodalized, the nobles of the land keep similar roles to their western equivalent. The Germans are a hardy bunch, and while the noble use horse they will always be at their strongest on foot." />
+        <string id="str_culture_rich_name.german" text="{=ECM_Culture_Rich_Name_german}German" />
+        <string id="str_faction_official.german" text="{=ECM_Faction_Official_german}a Reichsgraf " />
+        <string id="str_faction_official.german_f" text="{=ECM_Faction_Official_F_german}a Reichsgraf " />
+        <string id="str_faction_ruler.german" text="{=ECM_Faction_Ruler_german}Emperor" />
+        <string id="str_faction_ruler.german_f" text="{=ECM_Faction_Ruler_F_german}Empress" />
+        <string id="str_faction_ruler_term_in_speech.german" text="{=ECM_Faction_Ruler_Term_german}{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
+        <string id="str_faction_ruler_name_with_title.german" text="{=ECM_Faction_Ruler_Name_And_Title_german}{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
+        <string id="str_faction_noble_name_with_title.german" text="{=ECM_Faction_Noble_Name_And_Title_german}{?RULER.GENDER}Reichsgraf{?}Reichsgraf{\?} {RULER.NAME}" />
+        <string id="str_adjective_for_faction.german" text="{=ECM_germanfaction}German" />
+        <string id="str_short_term_for_faction.german" text="{=ECM_Faction_Short_Term_german}German" />
+        <string id="str_faction_formal_name_for_culture.german" text="{=ECM_Culture_Formal_Name_german}Holy Roman Empire" />
+        <string id="str_faction_informal_name_for_culture.german" text="{=ECM_Culture_Informal_Name_german}the germans" />
+        <string id="str_adjective_for_culture.german" text="{=ECM_Culture_Adjective_german}german" />
+        <string id="str_neutral_term_for_culture.german" text="{=ECM_Culture_Neutral_Term_german}german" />
+
+
+</strings>
