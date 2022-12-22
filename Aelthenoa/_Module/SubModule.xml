@@ -9,7 +9,6 @@
   </DependedModules>
   <SubModules></SubModules>
   <Xmls>
-    <Xmls>
       <XmlNode>
         <XmlName id="Factions" path="spclans" />
         <IncludedGameTypes>
@@ -66,6 +65,14 @@
       </XmlNode>
       <XmlNode>
         <XmlName id="NPCCharacters" path="education_character_templates"/>
+        <IncludedGameTypes>
+          <GameType value = "Campaign"/>
+          <GameType value = "CampaignStoryMode"/>
+          <GameType value = "CustomGame"/>
+        </IncludedGameTypes>
+      </XmlNode>
+      <XmlNode>
+        <XmlName id="NPCCharacters" path="troops"/>
         <IncludedGameTypes>
           <GameType value = "Campaign"/>
           <GameType value = "CampaignStoryMode"/>
@@ -134,5 +141,13 @@
           <GameType value = "CampaignStoryMode"/>
         </IncludedGameTypes>
       </XmlNode>
-    </Xmls>
+      <XmlNode>
+      <XmlName id="Monsters" path="monsters"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
 </Module>

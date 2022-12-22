@@ -1,0 +1,67 @@
+<partyTemplates>
+
+    <MBPartyTemplate id="villager_elsian_template" >
+      <stacks>
+        <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_elsian" />
+      </stacks>
+    </MBPartyTemplate>
+	
+  <MBPartyTemplate id="rebels_elsian_template" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_recruit" />
+    </stacks>
+  </MBPartyTemplate>
+  
+  <MBPartyTemplate id="caravan_template_elsian" >
+    <stacks>
+      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.armed_trader_elsian" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_elsian" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_elsian" />
+    </stacks>
+  </MBPartyTemplate>
+  
+  <MBPartyTemplate id="elite_caravan_template_elsian" >
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_elsian" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_elsian" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_elsian" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_elsian" />
+    </stacks>
+  </MBPartyTemplate>
+
+  <MBPartyTemplate id="militia_elsian_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <MBPartyTemplate id="kingdom_hero_party_elsian_template" >
+    <stacks>
+      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.elsian_recruit" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.elsian_levy_footman" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.elsian_horseman" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.elsian_cavalry" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_man_at_arms" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.elsian_levy_bowman" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.elsian_skirmisher" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.elsian_heavy_footman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_knight" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.elsian_spearman" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.elsian_levy_bowman" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.elsian_bowman" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.elsian_levy_bowman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_heavy_bowman" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.elsian_crossbowman" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.elsian_sharpshooter" />
+    </stacks>
+  </MBPartyTemplate>
+  
+  <MBPartyTemplate id="vassal_reward_troops_elsian" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.elsian_noble_man_at_arms" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.elsian_noble_dismounted_man_at_arms" />
+    </stacks>
+  </MBPartyTemplate>
+
+</partyTemplates>

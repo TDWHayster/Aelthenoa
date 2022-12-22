@@ -3032,5 +3032,117 @@
   <action_set id="as_elf_poses" base_set="as_elf_warrior">
     <action type="act_stand_1" animation="stand_1" />
   </action_set>
+  
+  
+  
+    <action_set id="as_hog_mount" skeleton="hog_skeleton" movement_system="quadrupedal">
+      <action type="act_horse_stand_for_movement_data" animation="hog_stand_for_movement_data" />
+      <action type="act_horse_stand_1" animation="hog_idle_graze" alternative_group="hog_stand_alternative_group" />
+      <action type="act_horse_stand_2" animation="hog_idle_look_around" alternative_group="hog_stand_alternative_group" />
+      <action type="act_horse_stand_3" animation="hog_idle_graze" alternative_group="hog_stand_alternative_group" />
+      <action type="act_horse_stand_4" animation="hog_idle_look_around" alternative_group="hog_stand_alternative_group" />
+	  
+      <action type="act_horse_idle_1" animation="hog_idle_graze" alternative_group="idle_horse" />
+      <action type="act_horse_idle_2" animation="hog_idle_look_around" alternative_group="idle_horse" />
+      <action type="act_horse_idle_3" animation="hog_idle_graze" alternative_group="idle_horse" />
+      <action type="act_horse_idle_4" animation="hog_idle_look_around" alternative_group="idle_horse" />
+	  
+      <action type="act_hero_mount_idle_horse" animation="hero_mount_idle_horse" />
+
+      <action type="act_horse_forward_walk_stand" animation="hog_gait_walk_forward" />
+      <action type="act_horse_forward_walk" animation="hog_walk_forward" />
+      <action type="act_horse_forward_walk_strafe_left" animation="hog_walk_forward_strafe_left" />
+      <action type="act_horse_forward_walk_strafe_right" animation="hog_walk_forward_strafe_right" />
+      <action type="act_horse_forward_trot_stand" animation="hog_gait_trot" />
+      <action type="act_horse_forward_trot" animation="hog_trot" />
+      <action type="act_horse_forward_trot_strafe_right" animation="hog_trot_strafe_right" />
+      <action type="act_horse_forward_trot_strafe_left" animation="hog_trot_strafe_left" />
+      <action type="act_horse_forward_canter_stand" animation="hog_gait_canter" />
+      <action type="act_horse_forward_canter" animation="hog_canter" />
+      <action type="act_horse_forward_canter_strafe_right" animation="hog_canter_strafe_right" />
+      <action type="act_horse_forward_canter_strafe_left" animation="hog_canter_strafe_left" />
+      <action type="act_horse_forward_gallop_right_foot_stand" animation="hog_gait_gallop" />
+      <action type="act_horse_forward_gallop_right_foot" animation="hog_gallop" />
+      <action type="act_horse_forward_gallop_right_foot_strafe_right" animation="hog_gallop_strafe_right" />
+      <action type="act_horse_forward_gallop_right_foot_strafe_left" animation="hog_gallop_strafe_left" />
+      <action type="act_horse_forward_gallop_left_foot_stand" animation="hog_gait_gallop" />
+      <action type="act_horse_forward_gallop_left_foot" animation="hog_gallop" />
+      <action type="act_horse_forward_gallop_left_foot_strafe_right" animation="hog_gallop_strafe_right" />
+      <action type="act_horse_forward_gallop_left_foot_strafe_left" animation="hog_gallop_strafe_left" />
+
+      <action type="act_horse_backward_walk_stand" animation="hog_gait_walk_forward" />
+      <action type="act_horse_backward_walk" animation="hog_walk_forward" />
+      <action type="act_horse_backward_walk_strafe_right" animation="hog_walk_forward" />
+      <action type="act_horse_backward_walk_strafe_left" animation="hog_walk_forward" />
+
+      <action type="act_horse_rear" animation="hog_idle_graze" />
+      <action type="act_horse_rear_damaged" animation="hog_idle_graze" />
+      <action type="act_horse_kick" animation="hog_idle_graze" />
+      <action type="act_horse_jump_start" animation="hog_idle_graze" />
+      <action type="act_horse_dash" animation="hog_idle_graze" />
+      <action type="act_horse_quick_stop" animation="hog_idle_graze" />
+      <action type="act_horse_quick_stop_when_fast" animation="hog_idle_graze" />
+      <action type="act_horse_hit_object" animation="hog_idle_graze" />
+      <action type="act_horse_hit_object_while_falling" animation="hog_idle_graze" />
+      <action type="act_horse_jump_high" animation="hog_walk_forward" />
+      <action type="act_horse_jump_high_loop" animation="hog_walk_forward" />
+      <action type="act_horse_jump_high_end" animation="hog_walk_forward" />
+      <action type="act_horse_jump_high_end_hard" animation="hog_walk_forward" />
+      <action type="act_horse_jump_forward" animation="hog_walk_forward" />
+      <action type="act_horse_jump_forward_loop" animation="hog_walk_forward" />
+      <action type="act_horse_jump_forward_end" animation="hog_walk_forward" />
+      <action type="act_horse_jump_forward_end_hard" animation="hog_walk_forward" />
+      <action type="act_horse_turn_right" animation="hog_walk_forward" />
+      <action type="act_horse_turn_left" animation="hog_walk_forward" />
+      <action type="act_horse_strafe_right" animation="hog_walk_forward" />
+      <action type="act_horse_strafe_left" animation="hog_walk_forward" />
+	  
+      <action type="act_horse_turn_right_head" animation="hog_walk_forward" />
+      <action type="act_horse_turn_left_head" animation="hog_walk_forward" />
+      <action type="act_horse_walk_turn_right_head" animation="hog_walk_forward" />
+      <action type="act_horse_walk_turn_left_head" animation="hog_walk_forward" />
+      <action type="act_horse_trot_turn_right_head" animation="hog_walk_forward" />
+      <action type="act_horse_trot_turn_left_head" animation="hog_walk_forward" />
+      <action type="act_horse_canter_turn_right_head" animation="hog_walk_forward" />
+      <action type="act_horse_canter_turn_left_head" animation="hog_walk_forward" />
+      <action type="act_horse_gallop_turn_right_head" animation="hog_walk_forward" />
+      <action type="act_horse_gallop_turn_left_head" animation="hog_walk_forward" />
+	  
+      <action type="act_horse_gallop_acceleration_head" animation="horse_upperbody_gallop" />
+      <action type="act_horse_strike_back" animation="hog_get_hit_back" />
+      <action type="act_horse_strike_front" animation="hog_get_hit_front" />
+      <action type="act_mount_strike_back_while_moving" animation="hog_walk_get_hit_back" />
+      <action type="act_mount_strike_front_while_moving" animation="hog_walk_get_hit_front" />
+      <action type="act_horse_fall_right" animation="hog_death" />
+      <action type="act_horse_fall_left" animation="hog_death" />
+      <action type="act_horse_fall_right_continue" animation="hog_death" />
+      <action type="act_horse_fall_left_continue" animation="hog_death" />
+      <action type="act_horse_fall_roll" animation="hog_death" />
+      <action type="act_horse_fall_roll_continue" animation="hog_death" />
+      <action type="act_horse_fall_backwards" animation="hog_death" />
+      <action type="act_horse_fall_slow_right" animation="hog_death" />
+      <action type="act_horse_fall_slow_right_continue" animation="hog_death" />
+      <action type="act_horse_fall_slow_left" animation="hog_death" />
+      <action type="act_horse_fall_slow_left_continue" animation="hog_death" />
+      <action type="act_horse_conversation_start" animation="hog_idle_graze" />
+      <action type="act_inventory_idle_start" animation="anim_hog_inventory_start" />
+      <action type="act_inventory_idle" animation="anim_hog_inventory" />
+      </action_set>
+
+
+
+    <action_set id="as_hog_mount_town_and_village" skeleton="hog_skeleton" base_set="as_hog_mount">
+      <action type="act_horse_stand_1" animation="hog_idle_graze" />
+      <action type="act_horse_stand_2" animation="hog_idle_graze" />
+      <action type="act_horse_stand_3" animation="hog_idle_graze" />
+      <action type="act_horse_stand_4" animation="hog_idle_graze" />
+    </action_set>
+
+    <action_set id="as_hog_mount_map" skeleton="hog_skeleton" base_set="as_hog_mount">
+      <action type="act_map_mount_attack_1h" animation="hog_idle_graze" />
+      <action type="act_map_mount_attack_spear" animation="hog_idle_graze" />
+      <action type="act_map_mount_attack_swing" animation="hog_idle_graze" />
+      <action type="act_map_mount_attack_unarmed" animation="hog_idle_graze" />
+    </action_set>
     
 </action_sets>
